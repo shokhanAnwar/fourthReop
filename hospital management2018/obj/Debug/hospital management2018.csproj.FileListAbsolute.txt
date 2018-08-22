@@ -16,3 +16,4 @@ C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital man
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.mainform.resources
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.Properties.Resources.resources
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital management2018.csproj.GenerateResource.Cache
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.Form1.resources
