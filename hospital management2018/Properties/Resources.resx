@@ -121,7 +121,22 @@
   <data name="wp1828770" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wp1828770.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iStock_000033969038Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iStock_000033969038Small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hospital-bramptonpton-1068x601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hospital-bramptonpton-1068x601.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cardiologo-pinerolo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cardiologo-pinerolo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardiologo-pinerolo11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardiologo-pinerolo11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wp18287701" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wp18287701.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iStock_000033969038Small1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iStock_000033969038Small1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

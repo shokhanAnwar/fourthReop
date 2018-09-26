@@ -12,8 +12,40 @@ C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital man
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital management2018.pdb
 C:\Users\shokhan\Desktop\hospital\hospital management2018\bin\Debug\hospital management2018.exe
 C:\Users\shokhan\Desktop\hospital\hospital management2018\bin\Debug\hospital management2018.pdb
-C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital management2018.csprojResolveAssemblyReference.cache
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.mainform.resources
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.Properties.Resources.resources
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital management2018.csproj.GenerateResource.Cache
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.Form1.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl1.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl2.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.white.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl3.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.mareth_raqd.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.sheet.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.tarexMartha_fahs_tubi.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.mughadart_mstashfa.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.saedaly_sareri.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.mlahazat_tamrezi.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.dxulMartha.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl4.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\bin\Debug\Tulpep.NotificationWindow.dll
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl5.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl6.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.estshrya_muraqaba.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.estsharya_tarexMartha.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.estsharaya_mughadarat.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.estsharya_3elaj.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.estsharya_mulahazat_tamrezi.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl7.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.a7saa.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.jra7ea_dxul_martha.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.jra7ea_mareth_raqd.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.jra7ea_mughadarat_mstashfa.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.jra7ea_fa7s_sareri_qabl_3amalya.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.jra7ea_mula7zat_tamrezi.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.jra7ea_mutaba3a_ser_marath.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.jra7ea_mula7azat_ethnaa_3amalya.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl8.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl9.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital management2018.csprojResolveAssemblyReference.cache
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.wa7dat_7sabat.resources

@@ -45,13 +45,100 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow">
+      <HintPath>..\packages\Tulpep.NotificationWindow.1.1.25\lib\net40\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="a7saa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="a7saa.Designer.cs">
+      <DependentUpon>a7saa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dxulMartha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dxulMartha.Designer.cs">
+      <DependentUpon>dxulMartha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="estsharaya mughadarat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estsharaya mughadarat.Designer.cs">
+      <DependentUpon>estsharaya mughadarat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="estsharya 3elaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estsharya 3elaj.Designer.cs">
+      <DependentUpon>estsharya 3elaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="estsharya mulahazat tamrezi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estsharya mulahazat tamrezi.Designer.cs">
+      <DependentUpon>estsharya mulahazat tamrezi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="estsharya tarexMartha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estsharya tarexMartha.Designer.cs">
+      <DependentUpon>estsharya tarexMartha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="estshrya muraqaba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estshrya muraqaba.Designer.cs">
+      <DependentUpon>estshrya muraqaba.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jra7ea dxul martha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jra7ea dxul martha.Designer.cs">
+      <DependentUpon>jra7ea dxul martha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jra7ea fa7s sareri qabl 3amalya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jra7ea fa7s sareri qabl 3amalya.Designer.cs">
+      <DependentUpon>jra7ea fa7s sareri qabl 3amalya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jra7ea mareth raqd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jra7ea mareth raqd.Designer.cs">
+      <DependentUpon>jra7ea mareth raqd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jra7ea mughadarat mstashfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jra7ea mughadarat mstashfa.Designer.cs">
+      <DependentUpon>jra7ea mughadarat mstashfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jra7ea mula7azat ethnaa 3amalya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jra7ea mula7azat ethnaa 3amalya.Designer.cs">
+      <DependentUpon>jra7ea mula7azat ethnaa 3amalya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jra7ea mula7zat tamrezi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jra7ea mula7zat tamrezi.Designer.cs">
+      <DependentUpon>jra7ea mula7zat tamrezi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jara7ea sheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jara7ea sheet.Designer.cs">
+      <DependentUpon>jara7ea sheet.cs</DependentUpon>
     </Compile>
     <Compile Include="mainform.cs">
       <SubType>Form</SubType>
@@ -59,13 +146,166 @@
     <Compile Include="mainform.Designer.cs">
       <DependentUpon>mainform.cs</DependentUpon>
     </Compile>
+    <Compile Include="mareth raqd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mareth raqd.Designer.cs">
+      <DependentUpon>mareth raqd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mlahazat tamrezi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mlahazat tamrezi.Designer.cs">
+      <DependentUpon>mlahazat tamrezi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mughadart mstashfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mughadart mstashfa.Designer.cs">
+      <DependentUpon>mughadart mstashfa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="saedaly sareri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saedaly sareri.Designer.cs">
+      <DependentUpon>saedaly sareri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sheet.Designer.cs">
+      <DependentUpon>sheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tarexMartha fahs tubi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tarexMartha fahs tubi.Designer.cs">
+      <DependentUpon>tarexMartha fahs tubi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl3.Designer.cs">
+      <DependentUpon>UserControl3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl4.Designer.cs">
+      <DependentUpon>UserControl4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl5.Designer.cs">
+      <DependentUpon>UserControl5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl6.Designer.cs">
+      <DependentUpon>UserControl6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl7.Designer.cs">
+      <DependentUpon>UserControl7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl8.Designer.cs">
+      <DependentUpon>UserControl8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl9.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl9.Designer.cs">
+      <DependentUpon>UserControl9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wa7dat 7sabat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wa7dat 7sabat.Designer.cs">
+      <DependentUpon>wa7dat 7sabat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="white.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="white.Designer.cs">
+      <DependentUpon>white.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="a7saa.resx">
+      <DependentUpon>a7saa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dxulMartha.resx">
+      <DependentUpon>dxulMartha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estsharaya mughadarat.resx">
+      <DependentUpon>estsharaya mughadarat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estsharya 3elaj.resx">
+      <DependentUpon>estsharya 3elaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estsharya mulahazat tamrezi.resx">
+      <DependentUpon>estsharya mulahazat tamrezi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estsharya tarexMartha.resx">
+      <DependentUpon>estsharya tarexMartha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estshrya muraqaba.resx">
+      <DependentUpon>estshrya muraqaba.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="jra7ea dxul martha.resx">
+      <DependentUpon>jra7ea dxul martha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jra7ea fa7s sareri qabl 3amalya.resx">
+      <DependentUpon>jra7ea fa7s sareri qabl 3amalya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jra7ea mareth raqd.resx">
+      <DependentUpon>jra7ea mareth raqd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jra7ea mughadarat mstashfa.resx">
+      <DependentUpon>jra7ea mughadarat mstashfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jra7ea mula7azat ethnaa 3amalya.resx">
+      <DependentUpon>jra7ea mula7azat ethnaa 3amalya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jra7ea mula7zat tamrezi.resx">
+      <DependentUpon>jra7ea mula7zat tamrezi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jara7ea sheet.resx">
+      <DependentUpon>jara7ea sheet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mainform.resx">
       <DependentUpon>mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mareth raqd.resx">
+      <DependentUpon>mareth raqd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mlahazat tamrezi.resx">
+      <DependentUpon>mlahazat tamrezi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mughadart mstashfa.resx">
+      <DependentUpon>mughadart mstashfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -77,6 +317,49 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="saedaly sareri.resx">
+      <DependentUpon>saedaly sareri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sheet.resx">
+      <DependentUpon>sheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tarexMartha fahs tubi.resx">
+      <DependentUpon>tarexMartha fahs tubi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl2.resx">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl3.resx">
+      <DependentUpon>UserControl3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl4.resx">
+      <DependentUpon>UserControl4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl5.resx">
+      <DependentUpon>UserControl5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl6.resx">
+      <DependentUpon>UserControl6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl7.resx">
+      <DependentUpon>UserControl7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl8.resx">
+      <DependentUpon>UserControl8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl9.resx">
+      <DependentUpon>UserControl9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wa7dat 7sabat.resx">
+      <DependentUpon>wa7dat 7sabat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="white.resx">
+      <DependentUpon>white.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -95,6 +378,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cardiologo-pinerolo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp18287701.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardiologo-pinerolo11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital-bramptonpton-1068x601.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock_000033969038Small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock_000033969038Small1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
