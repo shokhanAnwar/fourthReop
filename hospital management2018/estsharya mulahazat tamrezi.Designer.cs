@@ -183,6 +183,7 @@
             // dateTimePicker4
             // 
             this.dateTimePicker4.Enabled = false;
+            this.dateTimePicker4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker4.Location = new System.Drawing.Point(1018, 581);
             this.dateTimePicker4.MaximumSize = new System.Drawing.Size(106, 30);
@@ -195,6 +196,7 @@
             // dateTimePicker3
             // 
             this.dateTimePicker3.Enabled = false;
+            this.dateTimePicker3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker3.Location = new System.Drawing.Point(1019, 492);
             this.dateTimePicker3.MaximumSize = new System.Drawing.Size(106, 30);
@@ -207,6 +209,7 @@
             // dateTimePicker11
             // 
             this.dateTimePicker11.Enabled = false;
+            this.dateTimePicker11.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker11.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker11.Location = new System.Drawing.Point(1019, 403);
             this.dateTimePicker11.MaximumSize = new System.Drawing.Size(106, 30);
@@ -219,6 +222,7 @@
             // dateTimePicker12
             // 
             this.dateTimePicker12.Enabled = false;
+            this.dateTimePicker12.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker12.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker12.Location = new System.Drawing.Point(1019, 315);
             this.dateTimePicker12.MaximumSize = new System.Drawing.Size(106, 30);
@@ -231,6 +235,7 @@
             // dateTimePicker5
             // 
             this.dateTimePicker5.Enabled = false;
+            this.dateTimePicker5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker5.Location = new System.Drawing.Point(1145, 581);
             this.dateTimePicker5.MaximumSize = new System.Drawing.Size(106, 30);
@@ -242,6 +247,7 @@
             // dateTimePicker8
             // 
             this.dateTimePicker8.Enabled = false;
+            this.dateTimePicker8.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker8.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker8.Location = new System.Drawing.Point(1145, 492);
             this.dateTimePicker8.MaximumSize = new System.Drawing.Size(106, 30);
@@ -253,6 +259,7 @@
             // dateTimePicker9
             // 
             this.dateTimePicker9.Enabled = false;
+            this.dateTimePicker9.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker9.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker9.Location = new System.Drawing.Point(1145, 403);
             this.dateTimePicker9.MaximumSize = new System.Drawing.Size(106, 30);
@@ -264,6 +271,7 @@
             // dateTimePicker10
             // 
             this.dateTimePicker10.Enabled = false;
+            this.dateTimePicker10.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker10.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker10.Location = new System.Drawing.Point(1145, 315);
             this.dateTimePicker10.MaximumSize = new System.Drawing.Size(106, 30);
@@ -375,10 +383,10 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Enabled = false;
-            this.radioButton2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.Location = new System.Drawing.Point(15, 21);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(47, 18);
+            this.radioButton2.Size = new System.Drawing.Size(51, 20);
             this.radioButton2.TabIndex = 107;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "انثى";
@@ -388,10 +396,10 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Enabled = false;
-            this.radioButton1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.Location = new System.Drawing.Point(112, 21);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(42, 18);
+            this.radioButton1.Size = new System.Drawing.Size(43, 20);
             this.radioButton1.TabIndex = 106;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "ذكر";
@@ -400,11 +408,12 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.Enabled = false;
+            this.dateTimePicker2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(26, 101);
+            this.dateTimePicker2.Location = new System.Drawing.Point(15, 101);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.ShowUpDown = true;
-            this.dateTimePicker2.Size = new System.Drawing.Size(126, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(137, 22);
             this.dateTimePicker2.TabIndex = 105;
             // 
             // label16

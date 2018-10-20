@@ -37,7 +37,7 @@
             this.BackgroundImage = global::hospital_management2018.Properties.Resources.iStock_000033969038Small1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Name = "white";
-            this.Size = new System.Drawing.Size(1167, 659);
+            this.Size = new System.Drawing.Size(1142, 660);
             this.ResumeLayout(false);
 
         }

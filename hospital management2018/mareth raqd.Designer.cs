@@ -399,6 +399,7 @@
             this.groupBox6.Controls.Add(this.comboBox21);
             this.groupBox6.Controls.Add(this.label28);
             this.groupBox6.Controls.Add(this.comboBox23);
+            this.groupBox6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.Location = new System.Drawing.Point(675, 466);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(647, 82);
@@ -412,7 +413,7 @@
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker3.Location = new System.Drawing.Point(370, 34);
             this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(182, 20);
+            this.dateTimePicker3.Size = new System.Drawing.Size(182, 22);
             this.dateTimePicker3.TabIndex = 13;
             // 
             // label27
@@ -447,7 +448,7 @@
             " خاصة"});
             this.comboBox21.Location = new System.Drawing.Point(12, 34);
             this.comboBox21.Name = "comboBox21";
-            this.comboBox21.Size = new System.Drawing.Size(101, 21);
+            this.comboBox21.Size = new System.Drawing.Size(101, 22);
             this.comboBox21.TabIndex = 10;
             // 
             // label28
@@ -466,7 +467,7 @@
             this.comboBox23.FormattingEnabled = true;
             this.comboBox23.Location = new System.Drawing.Point(207, 34);
             this.comboBox23.Name = "comboBox23";
-            this.comboBox23.Size = new System.Drawing.Size(100, 21);
+            this.comboBox23.Size = new System.Drawing.Size(100, 22);
             this.comboBox23.TabIndex = 6;
             // 
             // groupBox5
@@ -727,9 +728,10 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Enabled = false;
+            this.radioButton2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.Location = new System.Drawing.Point(243, 191);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(46, 17);
+            this.radioButton2.Size = new System.Drawing.Size(47, 18);
             this.radioButton2.TabIndex = 36;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "انثى";
@@ -739,9 +741,10 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Enabled = false;
+            this.radioButton1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.Location = new System.Drawing.Point(340, 191);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(40, 17);
+            this.radioButton1.Size = new System.Drawing.Size(42, 18);
             this.radioButton1.TabIndex = 35;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "ذكر";

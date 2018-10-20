@@ -51,6 +51,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label18 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -88,14 +91,12 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -132,7 +133,7 @@
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Location = new System.Drawing.Point(7, 23);
+            this.groupBox1.Location = new System.Drawing.Point(6, 23);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1131, 626);
             this.groupBox1.TabIndex = 3;
@@ -146,7 +147,7 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button12.Location = new System.Drawing.Point(662, 11);
+            this.button12.Location = new System.Drawing.Point(662, 14);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(91, 45);
             this.button12.TabIndex = 33;
@@ -156,7 +157,7 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(189)))), ((int)(((byte)(156)))));
+            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(169)))));
             this.groupBox5.Controls.Add(this.listView1);
             this.groupBox5.Controls.Add(this.label35);
             this.groupBox5.Controls.Add(this.textBox6);
@@ -165,7 +166,7 @@
             this.groupBox5.Controls.Add(this.dateTimePicker7);
             this.groupBox5.Controls.Add(this.dateTimePicker6);
             this.groupBox5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(8, 67);
+            this.groupBox5.Location = new System.Drawing.Point(8, 70);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(360, 547);
             this.groupBox5.TabIndex = 32;
@@ -239,7 +240,7 @@
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button13.Location = new System.Drawing.Point(3, 11);
+            this.button13.Location = new System.Drawing.Point(3, 14);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(116, 45);
             this.button13.TabIndex = 31;
@@ -254,7 +255,7 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button11.Location = new System.Drawing.Point(119, 11);
+            this.button11.Location = new System.Drawing.Point(119, 14);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(131, 45);
             this.button11.TabIndex = 30;
@@ -269,7 +270,7 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button10.Location = new System.Drawing.Point(250, 11);
+            this.button10.Location = new System.Drawing.Point(250, 14);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(108, 45);
             this.button10.TabIndex = 29;
@@ -284,7 +285,7 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button9.Location = new System.Drawing.Point(358, 11);
+            this.button9.Location = new System.Drawing.Point(358, 14);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(142, 45);
             this.button9.TabIndex = 28;
@@ -299,7 +300,7 @@
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button8.Location = new System.Drawing.Point(500, 11);
+            this.button8.Location = new System.Drawing.Point(500, 14);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(71, 45);
             this.button8.TabIndex = 27;
@@ -314,7 +315,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button7.Location = new System.Drawing.Point(571, 11);
+            this.button7.Location = new System.Drawing.Point(571, 14);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(91, 45);
             this.button7.TabIndex = 26;
@@ -330,7 +331,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button5.Location = new System.Drawing.Point(753, 11);
+            this.button5.Location = new System.Drawing.Point(753, 14);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 45);
             this.button5.TabIndex = 24;
@@ -346,7 +347,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button4.Location = new System.Drawing.Point(828, 11);
+            this.button4.Location = new System.Drawing.Point(828, 14);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 45);
             this.button4.TabIndex = 23;
@@ -361,7 +362,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button3.Location = new System.Drawing.Point(903, 11);
+            this.button3.Location = new System.Drawing.Point(903, 14);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 45);
             this.button3.TabIndex = 22;
@@ -376,7 +377,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button2.Location = new System.Drawing.Point(978, 11);
+            this.button2.Location = new System.Drawing.Point(978, 14);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 45);
             this.button2.TabIndex = 21;
@@ -391,7 +392,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button1.Location = new System.Drawing.Point(1053, 11);
+            this.button1.Location = new System.Drawing.Point(1053, 14);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 45);
             this.button1.TabIndex = 20;
@@ -401,7 +402,9 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(189)))), ((int)(((byte)(156)))));
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(169)))));
+            this.groupBox2.Controls.Add(this.radioButton9);
+            this.groupBox2.Controls.Add(this.radioButton10);
             this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.dateTimePicker2);
             this.groupBox2.Controls.Add(this.label18);
@@ -440,18 +443,56 @@
             this.groupBox2.Controls.Add(this.comboBox1);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.comboBox5);
             this.groupBox2.Controls.Add(this.comboBox2);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.comboBox4);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Location = new System.Drawing.Point(368, 67);
+            this.groupBox2.Location = new System.Drawing.Point(368, 70);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(755, 547);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "معلومات المريض";
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Enabled = false;
+            this.radioButton9.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton9.Location = new System.Drawing.Point(437, 178);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.radioButton9.Size = new System.Drawing.Size(47, 18);
+            this.radioButton9.TabIndex = 79;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "انثى";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Enabled = false;
+            this.radioButton10.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton10.Location = new System.Drawing.Point(568, 178);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.radioButton10.Size = new System.Drawing.Size(42, 18);
+            this.radioButton10.TabIndex = 78;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "ذكر";
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Enabled = false;
+            this.textBox4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(437, 64);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox4.Size = new System.Drawing.Size(174, 22);
+            this.textBox4.TabIndex = 77;
+            this.textBox4.Text = "الباطنية";
             // 
             // dateTimePicker2
             // 
@@ -476,7 +517,7 @@
             this.dateTimePicker1.Enabled = false;
             this.dateTimePicker1.Location = new System.Drawing.Point(410, 506);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(196, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 69;
             // 
             // label19
@@ -818,16 +859,6 @@
             this.label3.Text = "اسم الام";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // comboBox5
-            // 
-            this.comboBox5.Enabled = false;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(437, 175);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.comboBox5.Size = new System.Drawing.Size(174, 21);
-            this.comboBox5.TabIndex = 10;
-            // 
             // comboBox2
             // 
             this.comboBox2.Enabled = false;
@@ -882,21 +913,10 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(5, 2);
+            this.panel1.Location = new System.Drawing.Point(0, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1144, 25);
+            this.panel1.Size = new System.Drawing.Size(1142, 25);
             this.panel1.TabIndex = 33;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(437, 64);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox4.Size = new System.Drawing.Size(174, 22);
-            this.textBox4.TabIndex = 77;
-            this.textBox4.Text = "الباطنية";
             // 
             // UserControl1
             // 
@@ -905,7 +925,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(1145, 659);
+            this.Size = new System.Drawing.Size(1142, 660);
             this.Load += new System.EventHandler(this.UserControl1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
@@ -981,12 +1001,13 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton radioButton10;
     }
 }

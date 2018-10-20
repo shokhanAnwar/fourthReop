@@ -47,5 +47,5 @@ C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_man
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.jra7ea_mula7azat_ethnaa_3amalya.resources
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl8.resources
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.UserControl9.resources
-C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital management2018.csprojResolveAssemblyReference.cache
 C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital_management2018.wa7dat_7sabat.resources
+C:\Users\shokhan\Desktop\hospital\hospital management2018\obj\Debug\hospital management2018.csprojResolveAssemblyReference.cache

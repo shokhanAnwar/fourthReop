@@ -24,7 +24,6 @@ namespace hospital_management2018
             comboBox3.Enabled = true;
             comboBox4.Enabled = true;
             comboBox5.Enabled = true;
-            comboBox6.Enabled = true;
             comboBox7.Enabled = true;
           
             textBox1.Enabled = true;
@@ -105,7 +104,8 @@ namespace hospital_management2018
 
             dateTimePicker6.Enabled = false;
             dateTimePicker7.Enabled = false;
-        
+            radioButton1.Enabled = true;
+            radioButton2.Enabled = true;
             button1.Enabled = false;
             button2.Enabled = false;
             button3.Enabled = false;
@@ -123,7 +123,6 @@ namespace hospital_management2018
             comboBox3.Enabled = false;
             comboBox4.Enabled = false;
             comboBox5.Enabled = false;
-            comboBox6.Enabled = false;
             comboBox7.Enabled = false;
 
             textBox1.Enabled = false;
@@ -204,6 +203,9 @@ namespace hospital_management2018
 
             dateTimePicker6.Enabled = true;
             dateTimePicker7.Enabled = true;
+
+            radioButton1.Enabled = false;
+            radioButton2.Enabled = false;
 
             button1.Enabled = true;
             button2.Enabled = true;
@@ -221,7 +223,6 @@ namespace hospital_management2018
             comboBox3.Enabled = false;
             comboBox4.Enabled = false;
             comboBox5.Enabled = false;
-            comboBox6.Enabled = false;
             comboBox7.Enabled = false;
 
             textBox1.Enabled = false;
@@ -302,6 +303,10 @@ namespace hospital_management2018
 
             dateTimePicker6.Enabled = true;
             dateTimePicker7.Enabled = true;
+
+
+            radioButton1.Enabled = false;
+            radioButton2.Enabled = false;
 
             button1.Enabled = true;
             button2.Enabled = true;

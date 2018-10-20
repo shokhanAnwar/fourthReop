@@ -39,7 +39,6 @@ namespace hospital_management2018
             comboBox2.Enabled = true;
             
             comboBox4.Enabled = true;
-            comboBox5.Enabled = true;
             comboBox6.Enabled = true;
             comboBox7.Enabled = true;
             comboBox8.Enabled = true;
@@ -119,8 +118,7 @@ namespace hospital_management2018
         {
             comboBox1.Enabled = true;
             comboBox2.Enabled = true;
-            comboBox4.Enabled = true; 
-            comboBox5.Enabled = true;
+            comboBox4.Enabled = true;
             comboBox6.Enabled = true; 
             comboBox7.Enabled = true;
             comboBox8.Enabled = true; 
@@ -162,6 +160,9 @@ namespace hospital_management2018
 
             button4.Enabled = true;
             button5.Enabled = true;
+
+            radioButton10.Enabled = true;
+            radioButton9.Enabled = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -222,7 +223,6 @@ namespace hospital_management2018
           comboBox1.Enabled = false;
           comboBox2.Enabled = false;
           comboBox4.Enabled = false;
-          comboBox5.Enabled = false;
           comboBox6.Enabled = false;
           comboBox7.Enabled = false;
           comboBox8.Enabled = false;
@@ -265,6 +265,9 @@ namespace hospital_management2018
 
           button4.Enabled = false;
           button5.Enabled = false;
+
+          radioButton10.Enabled = false;
+          radioButton9.Enabled = false;
       }
 
       private void button5_Click(object sender, EventArgs e)
@@ -272,7 +275,6 @@ namespace hospital_management2018
           comboBox1.Enabled = false;
           comboBox2.Enabled = false;
           comboBox4.Enabled = false;
-          comboBox5.Enabled = false;
           comboBox6.Enabled = false;
           comboBox7.Enabled = false;
           comboBox8.Enabled = false;
@@ -315,6 +317,10 @@ namespace hospital_management2018
 
           button4.Enabled = false ;
           button5.Enabled = false ;
+
+
+          radioButton10.Enabled = false;
+          radioButton9.Enabled = false;
       }
 
       private void button12_Click(object sender, EventArgs e)

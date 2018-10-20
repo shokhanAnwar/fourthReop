@@ -505,6 +505,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(14, 239);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -523,6 +524,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(14, 189);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -541,6 +543,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(15, 121);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";

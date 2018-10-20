@@ -29,6 +29,49 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.comboBox19 = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.comboBox20 = new System.Windows.Forms.ComboBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.comboBox21 = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.comboBox17 = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.comboBox18 = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.comboBox22 = new System.Windows.Forms.ComboBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.comboBox23 = new System.Windows.Forms.ComboBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.comboBox24 = new System.Windows.Forms.ComboBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.comboBox25 = new System.Windows.Forms.ComboBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.comboBox26 = new System.Windows.Forms.ComboBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.comboBox27 = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.comboBox28 = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.comboBox29 = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
@@ -93,7 +136,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -103,54 +145,13 @@
             this.label22 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.comboBox19 = new System.Windows.Forms.ComboBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.comboBox21 = new System.Windows.Forms.ComboBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.comboBox22 = new System.Windows.Forms.ComboBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.comboBox23 = new System.Windows.Forms.ComboBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.comboBox24 = new System.Windows.Forms.ComboBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.comboBox25 = new System.Windows.Forms.ComboBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.comboBox26 = new System.Windows.Forms.ComboBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.comboBox27 = new System.Windows.Forms.ComboBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.comboBox28 = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.comboBox29 = new System.Windows.Forms.ComboBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox2.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -172,6 +173,459 @@
             this.groupBox2.Size = new System.Drawing.Size(1348, 685);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.comboBox19);
+            this.groupBox4.Controls.Add(this.label19);
+            this.groupBox4.Controls.Add(this.comboBox20);
+            this.groupBox4.Controls.Add(this.label20);
+            this.groupBox4.Controls.Add(this.comboBox21);
+            this.groupBox4.Controls.Add(this.label21);
+            this.groupBox4.Controls.Add(this.comboBox13);
+            this.groupBox4.Controls.Add(this.label14);
+            this.groupBox4.Controls.Add(this.comboBox14);
+            this.groupBox4.Controls.Add(this.label15);
+            this.groupBox4.Controls.Add(this.comboBox15);
+            this.groupBox4.Controls.Add(this.label16);
+            this.groupBox4.Controls.Add(this.comboBox16);
+            this.groupBox4.Controls.Add(this.label17);
+            this.groupBox4.Controls.Add(this.comboBox17);
+            this.groupBox4.Controls.Add(this.label18);
+            this.groupBox4.Controls.Add(this.comboBox18);
+            this.groupBox4.Controls.Add(this.label23);
+            this.groupBox4.Controls.Add(this.comboBox9);
+            this.groupBox4.Controls.Add(this.label24);
+            this.groupBox4.Controls.Add(this.comboBox10);
+            this.groupBox4.Controls.Add(this.label25);
+            this.groupBox4.Controls.Add(this.comboBox11);
+            this.groupBox4.Controls.Add(this.label26);
+            this.groupBox4.Controls.Add(this.comboBox12);
+            this.groupBox4.Controls.Add(this.label27);
+            this.groupBox4.Controls.Add(this.comboBox22);
+            this.groupBox4.Controls.Add(this.label28);
+            this.groupBox4.Controls.Add(this.comboBox23);
+            this.groupBox4.Controls.Add(this.label29);
+            this.groupBox4.Controls.Add(this.comboBox24);
+            this.groupBox4.Controls.Add(this.label30);
+            this.groupBox4.Controls.Add(this.comboBox25);
+            this.groupBox4.Controls.Add(this.label31);
+            this.groupBox4.Controls.Add(this.comboBox26);
+            this.groupBox4.Controls.Add(this.label32);
+            this.groupBox4.Controls.Add(this.comboBox27);
+            this.groupBox4.Controls.Add(this.label11);
+            this.groupBox4.Controls.Add(this.comboBox28);
+            this.groupBox4.Controls.Add(this.label12);
+            this.groupBox4.Controls.Add(this.comboBox29);
+            this.groupBox4.Controls.Add(this.label13);
+            this.groupBox4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(266, 471);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(1056, 205);
+            this.groupBox4.TabIndex = 66;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "General Examination";
+            // 
+            // comboBox19
+            // 
+            this.comboBox19.Enabled = false;
+            this.comboBox19.FormattingEnabled = true;
+            this.comboBox19.Location = new System.Drawing.Point(77, 173);
+            this.comboBox19.Name = "comboBox19";
+            this.comboBox19.Size = new System.Drawing.Size(169, 26);
+            this.comboBox19.TabIndex = 47;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(13, 177);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(59, 14);
+            this.label19.TabIndex = 46;
+            this.label19.Text = "Genitalia";
+            // 
+            // comboBox20
+            // 
+            this.comboBox20.Enabled = false;
+            this.comboBox20.FormattingEnabled = true;
+            this.comboBox20.Location = new System.Drawing.Point(880, 143);
+            this.comboBox20.Name = "comboBox20";
+            this.comboBox20.Size = new System.Drawing.Size(169, 26);
+            this.comboBox20.TabIndex = 45;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(773, 147);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(104, 14);
+            this.label20.TabIndex = 44;
+            this.label20.Text = "Inguinal Region";
+            // 
+            // comboBox21
+            // 
+            this.comboBox21.Enabled = false;
+            this.comboBox21.FormattingEnabled = true;
+            this.comboBox21.Location = new System.Drawing.Point(602, 143);
+            this.comboBox21.Name = "comboBox21";
+            this.comboBox21.Size = new System.Drawing.Size(169, 26);
+            this.comboBox21.TabIndex = 43;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(534, 147);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(54, 14);
+            this.label21.TabIndex = 42;
+            this.label21.Text = "Kidneys";
+            // 
+            // comboBox13
+            // 
+            this.comboBox13.Enabled = false;
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Location = new System.Drawing.Point(329, 143);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(169, 26);
+            this.comboBox13.TabIndex = 41;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(276, 147);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(48, 14);
+            this.label14.TabIndex = 40;
+            this.label14.Text = "Spleen";
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.Enabled = false;
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Location = new System.Drawing.Point(77, 143);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(169, 26);
+            this.comboBox14.TabIndex = 39;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(22, 147);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(36, 14);
+            this.label15.TabIndex = 38;
+            this.label15.Text = "Liver";
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.Enabled = false;
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Location = new System.Drawing.Point(880, 113);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(169, 26);
+            this.comboBox15.TabIndex = 37;
+            this.comboBox15.SelectedIndexChanged += new System.EventHandler(this.comboBox15_SelectedIndexChanged);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(806, 117);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(66, 14);
+            this.label16.TabIndex = 36;
+            this.label16.Text = "Abdomen";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
+            // 
+            // comboBox16
+            // 
+            this.comboBox16.Enabled = false;
+            this.comboBox16.FormattingEnabled = true;
+            this.comboBox16.Location = new System.Drawing.Point(602, 113);
+            this.comboBox16.Name = "comboBox16";
+            this.comboBox16.Size = new System.Drawing.Size(169, 26);
+            this.comboBox16.TabIndex = 35;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(541, 117);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(41, 14);
+            this.label17.TabIndex = 34;
+            this.label17.Text = "Heart";
+            // 
+            // comboBox17
+            // 
+            this.comboBox17.Enabled = false;
+            this.comboBox17.FormattingEnabled = true;
+            this.comboBox17.Location = new System.Drawing.Point(329, 113);
+            this.comboBox17.Name = "comboBox17";
+            this.comboBox17.Size = new System.Drawing.Size(169, 26);
+            this.comboBox17.TabIndex = 33;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(278, 117);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(44, 14);
+            this.label18.TabIndex = 32;
+            this.label18.Text = "Lungs";
+            // 
+            // comboBox18
+            // 
+            this.comboBox18.Enabled = false;
+            this.comboBox18.FormattingEnabled = true;
+            this.comboBox18.Location = new System.Drawing.Point(77, 113);
+            this.comboBox18.Name = "comboBox18";
+            this.comboBox18.Size = new System.Drawing.Size(169, 26);
+            this.comboBox18.TabIndex = 31;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(14, 117);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(52, 14);
+            this.label23.TabIndex = 30;
+            this.label23.Text = "Breasts";
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.Enabled = false;
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Location = new System.Drawing.Point(880, 82);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(169, 26);
+            this.comboBox9.TabIndex = 29;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(823, 86);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(49, 14);
+            this.label24.TabIndex = 28;
+            this.label24.Text = "Thorax";
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.Enabled = false;
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Location = new System.Drawing.Point(602, 82);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(169, 26);
+            this.comboBox10.TabIndex = 27;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(544, 86);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(35, 14);
+            this.label25.TabIndex = 26;
+            this.label25.Text = "Neck";
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.Enabled = false;
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Location = new System.Drawing.Point(329, 82);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(169, 26);
+            this.comboBox11.TabIndex = 25;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(284, 86);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(32, 14);
+            this.label26.TabIndex = 24;
+            this.label26.Text = "Ears";
+            // 
+            // comboBox12
+            // 
+            this.comboBox12.Enabled = false;
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Location = new System.Drawing.Point(77, 82);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(169, 26);
+            this.comboBox12.TabIndex = 23;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(22, 86);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(36, 14);
+            this.label27.TabIndex = 22;
+            this.label27.Text = "Nose";
+            // 
+            // comboBox22
+            // 
+            this.comboBox22.Enabled = false;
+            this.comboBox22.FormattingEnabled = true;
+            this.comboBox22.Location = new System.Drawing.Point(880, 51);
+            this.comboBox22.Name = "comboBox22";
+            this.comboBox22.Size = new System.Drawing.Size(169, 26);
+            this.comboBox22.TabIndex = 21;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(833, 55);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(34, 14);
+            this.label28.TabIndex = 20;
+            this.label28.Text = "Eyes";
+            // 
+            // comboBox23
+            // 
+            this.comboBox23.Enabled = false;
+            this.comboBox23.FormattingEnabled = true;
+            this.comboBox23.Location = new System.Drawing.Point(602, 51);
+            this.comboBox23.Name = "comboBox23";
+            this.comboBox23.Size = new System.Drawing.Size(169, 26);
+            this.comboBox23.TabIndex = 19;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(542, 55);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(38, 14);
+            this.label29.TabIndex = 18;
+            this.label29.Text = "Head";
+            // 
+            // comboBox24
+            // 
+            this.comboBox24.Enabled = false;
+            this.comboBox24.FormattingEnabled = true;
+            this.comboBox24.Location = new System.Drawing.Point(329, 51);
+            this.comboBox24.Name = "comboBox24";
+            this.comboBox24.Size = new System.Drawing.Size(169, 26);
+            this.comboBox24.TabIndex = 17;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(287, 55);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(27, 14);
+            this.label30.TabIndex = 16;
+            this.label30.Text = "B.P";
+            // 
+            // comboBox25
+            // 
+            this.comboBox25.Enabled = false;
+            this.comboBox25.FormattingEnabled = true;
+            this.comboBox25.Location = new System.Drawing.Point(76, 51);
+            this.comboBox25.Name = "comboBox25";
+            this.comboBox25.Size = new System.Drawing.Size(170, 26);
+            this.comboBox25.TabIndex = 15;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(5, 55);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(70, 14);
+            this.label31.TabIndex = 14;
+            this.label31.Text = "Resp.Rate";
+            // 
+            // comboBox26
+            // 
+            this.comboBox26.Enabled = false;
+            this.comboBox26.FormattingEnabled = true;
+            this.comboBox26.Location = new System.Drawing.Point(880, 21);
+            this.comboBox26.Name = "comboBox26";
+            this.comboBox26.Size = new System.Drawing.Size(169, 26);
+            this.comboBox26.TabIndex = 13;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(827, 25);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(39, 14);
+            this.label32.TabIndex = 12;
+            this.label32.Text = "Pluse";
+            // 
+            // comboBox27
+            // 
+            this.comboBox27.Enabled = false;
+            this.comboBox27.FormattingEnabled = true;
+            this.comboBox27.Location = new System.Drawing.Point(602, 21);
+            this.comboBox27.Name = "comboBox27";
+            this.comboBox27.Size = new System.Drawing.Size(169, 26);
+            this.comboBox27.TabIndex = 11;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(522, 25);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(78, 14);
+            this.label11.TabIndex = 10;
+            this.label11.Text = "Temprature";
+            // 
+            // comboBox28
+            // 
+            this.comboBox28.Enabled = false;
+            this.comboBox28.FormattingEnabled = true;
+            this.comboBox28.Location = new System.Drawing.Point(329, 21);
+            this.comboBox28.Name = "comboBox28";
+            this.comboBox28.Size = new System.Drawing.Size(169, 26);
+            this.comboBox28.TabIndex = 9;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(275, 25);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(51, 14);
+            this.label12.TabIndex = 8;
+            this.label12.Text = "Weight";
+            // 
+            // comboBox29
+            // 
+            this.comboBox29.Enabled = false;
+            this.comboBox29.FormattingEnabled = true;
+            this.comboBox29.Location = new System.Drawing.Point(77, 21);
+            this.comboBox29.Name = "comboBox29";
+            this.comboBox29.Size = new System.Drawing.Size(169, 26);
+            this.comboBox29.TabIndex = 7;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(16, 25);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(48, 14);
+            this.label13.TabIndex = 6;
+            this.label13.Text = "Height";
             // 
             // label44
             // 
@@ -752,6 +1206,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.dateTimePicker4);
             this.groupBox1.Controls.Add(this.comboBox6);
             this.groupBox1.Controls.Add(this.comboBox7);
@@ -762,7 +1218,6 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.comboBox3);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.comboBox2);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label3);
@@ -777,9 +1232,10 @@
             // dateTimePicker4
             // 
             this.dateTimePicker4.Enabled = false;
-            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker4.Location = new System.Drawing.Point(530, 67);
             this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.ShowUpDown = true;
             this.dateTimePicker4.Size = new System.Drawing.Size(164, 20);
             this.dateTimePicker4.TabIndex = 83;
             // 
@@ -869,15 +1325,6 @@
             this.label6.TabIndex = 73;
             this.label6.Text = "Doctor Name :";
             // 
-            // comboBox2
-            // 
-            this.comboBox2.Enabled = false;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(126, 40);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(164, 21);
-            this.comboBox2.TabIndex = 72;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -964,458 +1411,31 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "مستشفى";
             // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.comboBox19);
-            this.groupBox4.Controls.Add(this.label19);
-            this.groupBox4.Controls.Add(this.comboBox20);
-            this.groupBox4.Controls.Add(this.label20);
-            this.groupBox4.Controls.Add(this.comboBox21);
-            this.groupBox4.Controls.Add(this.label21);
-            this.groupBox4.Controls.Add(this.comboBox13);
-            this.groupBox4.Controls.Add(this.label14);
-            this.groupBox4.Controls.Add(this.comboBox14);
-            this.groupBox4.Controls.Add(this.label15);
-            this.groupBox4.Controls.Add(this.comboBox15);
-            this.groupBox4.Controls.Add(this.label16);
-            this.groupBox4.Controls.Add(this.comboBox16);
-            this.groupBox4.Controls.Add(this.label17);
-            this.groupBox4.Controls.Add(this.comboBox17);
-            this.groupBox4.Controls.Add(this.label18);
-            this.groupBox4.Controls.Add(this.comboBox18);
-            this.groupBox4.Controls.Add(this.label23);
-            this.groupBox4.Controls.Add(this.comboBox9);
-            this.groupBox4.Controls.Add(this.label24);
-            this.groupBox4.Controls.Add(this.comboBox10);
-            this.groupBox4.Controls.Add(this.label25);
-            this.groupBox4.Controls.Add(this.comboBox11);
-            this.groupBox4.Controls.Add(this.label26);
-            this.groupBox4.Controls.Add(this.comboBox12);
-            this.groupBox4.Controls.Add(this.label27);
-            this.groupBox4.Controls.Add(this.comboBox22);
-            this.groupBox4.Controls.Add(this.label28);
-            this.groupBox4.Controls.Add(this.comboBox23);
-            this.groupBox4.Controls.Add(this.label29);
-            this.groupBox4.Controls.Add(this.comboBox24);
-            this.groupBox4.Controls.Add(this.label30);
-            this.groupBox4.Controls.Add(this.comboBox25);
-            this.groupBox4.Controls.Add(this.label31);
-            this.groupBox4.Controls.Add(this.comboBox26);
-            this.groupBox4.Controls.Add(this.label32);
-            this.groupBox4.Controls.Add(this.comboBox27);
-            this.groupBox4.Controls.Add(this.label11);
-            this.groupBox4.Controls.Add(this.comboBox28);
-            this.groupBox4.Controls.Add(this.label12);
-            this.groupBox4.Controls.Add(this.comboBox29);
-            this.groupBox4.Controls.Add(this.label13);
-            this.groupBox4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(266, 471);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(1056, 205);
-            this.groupBox4.TabIndex = 66;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "General Examination";
-            // 
-            // comboBox19
-            // 
-            this.comboBox19.Enabled = false;
-            this.comboBox19.FormattingEnabled = true;
-            this.comboBox19.Location = new System.Drawing.Point(77, 173);
-            this.comboBox19.Name = "comboBox19";
-            this.comboBox19.Size = new System.Drawing.Size(169, 26);
-            this.comboBox19.TabIndex = 47;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(13, 177);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(59, 14);
-            this.label19.TabIndex = 46;
-            this.label19.Text = "Genitalia";
-            // 
-            // comboBox20
-            // 
-            this.comboBox20.Enabled = false;
-            this.comboBox20.FormattingEnabled = true;
-            this.comboBox20.Location = new System.Drawing.Point(880, 143);
-            this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(169, 26);
-            this.comboBox20.TabIndex = 45;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(773, 147);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(104, 14);
-            this.label20.TabIndex = 44;
-            this.label20.Text = "Inguinal Region";
-            // 
-            // comboBox21
-            // 
-            this.comboBox21.Enabled = false;
-            this.comboBox21.FormattingEnabled = true;
-            this.comboBox21.Location = new System.Drawing.Point(602, 143);
-            this.comboBox21.Name = "comboBox21";
-            this.comboBox21.Size = new System.Drawing.Size(169, 26);
-            this.comboBox21.TabIndex = 43;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(534, 147);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(54, 14);
-            this.label21.TabIndex = 42;
-            this.label21.Text = "Kidneys";
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.Enabled = false;
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(329, 143);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(169, 26);
-            this.comboBox13.TabIndex = 41;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(276, 147);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(48, 14);
-            this.label14.TabIndex = 40;
-            this.label14.Text = "Spleen";
-            // 
-            // comboBox14
-            // 
-            this.comboBox14.Enabled = false;
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(77, 143);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(169, 26);
-            this.comboBox14.TabIndex = 39;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(22, 147);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(36, 14);
-            this.label15.TabIndex = 38;
-            this.label15.Text = "Liver";
-            // 
-            // comboBox15
-            // 
-            this.comboBox15.Enabled = false;
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(880, 113);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(169, 26);
-            this.comboBox15.TabIndex = 37;
-            this.comboBox15.SelectedIndexChanged += new System.EventHandler(this.comboBox15_SelectedIndexChanged);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(806, 117);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(66, 14);
-            this.label16.TabIndex = 36;
-            this.label16.Text = "Abdomen";
-            this.label16.Click += new System.EventHandler(this.label16_Click);
-            // 
-            // comboBox16
-            // 
-            this.comboBox16.Enabled = false;
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Location = new System.Drawing.Point(602, 113);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(169, 26);
-            this.comboBox16.TabIndex = 35;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(541, 117);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 14);
-            this.label17.TabIndex = 34;
-            this.label17.Text = "Heart";
-            // 
-            // comboBox17
-            // 
-            this.comboBox17.Enabled = false;
-            this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Location = new System.Drawing.Point(329, 113);
-            this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(169, 26);
-            this.comboBox17.TabIndex = 33;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(278, 117);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(44, 14);
-            this.label18.TabIndex = 32;
-            this.label18.Text = "Lungs";
-            // 
-            // comboBox18
-            // 
-            this.comboBox18.Enabled = false;
-            this.comboBox18.FormattingEnabled = true;
-            this.comboBox18.Location = new System.Drawing.Point(77, 113);
-            this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(169, 26);
-            this.comboBox18.TabIndex = 31;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(14, 117);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(52, 14);
-            this.label23.TabIndex = 30;
-            this.label23.Text = "Breasts";
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.Enabled = false;
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(880, 82);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(169, 26);
-            this.comboBox9.TabIndex = 29;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(823, 86);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(49, 14);
-            this.label24.TabIndex = 28;
-            this.label24.Text = "Thorax";
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.Enabled = false;
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(602, 82);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(169, 26);
-            this.comboBox10.TabIndex = 27;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(544, 86);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(35, 14);
-            this.label25.TabIndex = 26;
-            this.label25.Text = "Neck";
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.Enabled = false;
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(329, 82);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(169, 26);
-            this.comboBox11.TabIndex = 25;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(284, 86);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(32, 14);
-            this.label26.TabIndex = 24;
-            this.label26.Text = "Ears";
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.Enabled = false;
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(77, 82);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(169, 26);
-            this.comboBox12.TabIndex = 23;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(22, 86);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(36, 14);
-            this.label27.TabIndex = 22;
-            this.label27.Text = "Nose";
-            // 
-            // comboBox22
-            // 
-            this.comboBox22.Enabled = false;
-            this.comboBox22.FormattingEnabled = true;
-            this.comboBox22.Location = new System.Drawing.Point(880, 51);
-            this.comboBox22.Name = "comboBox22";
-            this.comboBox22.Size = new System.Drawing.Size(169, 26);
-            this.comboBox22.TabIndex = 21;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(833, 55);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(34, 14);
-            this.label28.TabIndex = 20;
-            this.label28.Text = "Eyes";
-            // 
-            // comboBox23
-            // 
-            this.comboBox23.Enabled = false;
-            this.comboBox23.FormattingEnabled = true;
-            this.comboBox23.Location = new System.Drawing.Point(602, 51);
-            this.comboBox23.Name = "comboBox23";
-            this.comboBox23.Size = new System.Drawing.Size(169, 26);
-            this.comboBox23.TabIndex = 19;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(542, 55);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(38, 14);
-            this.label29.TabIndex = 18;
-            this.label29.Text = "Head";
-            // 
-            // comboBox24
-            // 
-            this.comboBox24.Enabled = false;
-            this.comboBox24.FormattingEnabled = true;
-            this.comboBox24.Location = new System.Drawing.Point(329, 51);
-            this.comboBox24.Name = "comboBox24";
-            this.comboBox24.Size = new System.Drawing.Size(169, 26);
-            this.comboBox24.TabIndex = 17;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(287, 55);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(27, 14);
-            this.label30.TabIndex = 16;
-            this.label30.Text = "B.P";
-            // 
-            // comboBox25
-            // 
-            this.comboBox25.Enabled = false;
-            this.comboBox25.FormattingEnabled = true;
-            this.comboBox25.Location = new System.Drawing.Point(76, 51);
-            this.comboBox25.Name = "comboBox25";
-            this.comboBox25.Size = new System.Drawing.Size(170, 26);
-            this.comboBox25.TabIndex = 15;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(5, 55);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(70, 14);
-            this.label31.TabIndex = 14;
-            this.label31.Text = "Resp.Rate";
-            // 
-            // comboBox26
-            // 
-            this.comboBox26.Enabled = false;
-            this.comboBox26.FormattingEnabled = true;
-            this.comboBox26.Location = new System.Drawing.Point(880, 21);
-            this.comboBox26.Name = "comboBox26";
-            this.comboBox26.Size = new System.Drawing.Size(169, 26);
-            this.comboBox26.TabIndex = 13;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(827, 25);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(39, 14);
-            this.label32.TabIndex = 12;
-            this.label32.Text = "Pluse";
-            // 
-            // comboBox27
-            // 
-            this.comboBox27.Enabled = false;
-            this.comboBox27.FormattingEnabled = true;
-            this.comboBox27.Location = new System.Drawing.Point(602, 21);
-            this.comboBox27.Name = "comboBox27";
-            this.comboBox27.Size = new System.Drawing.Size(169, 26);
-            this.comboBox27.TabIndex = 11;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(522, 25);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(78, 14);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "Temprature";
-            // 
-            // comboBox28
-            // 
-            this.comboBox28.Enabled = false;
-            this.comboBox28.FormattingEnabled = true;
-            this.comboBox28.Location = new System.Drawing.Point(329, 21);
-            this.comboBox28.Name = "comboBox28";
-            this.comboBox28.Size = new System.Drawing.Size(169, 26);
-            this.comboBox28.TabIndex = 9;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(275, 25);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(51, 14);
-            this.label12.TabIndex = 8;
-            this.label12.Text = "Weight";
-            // 
-            // comboBox29
-            // 
-            this.comboBox29.Enabled = false;
-            this.comboBox29.FormattingEnabled = true;
-            this.comboBox29.Location = new System.Drawing.Point(77, 21);
-            this.comboBox29.Name = "comboBox29";
-            this.comboBox29.Size = new System.Drawing.Size(169, 26);
-            this.comboBox29.TabIndex = 7;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(16, 25);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(48, 14);
-            this.label13.TabIndex = 6;
-            this.label13.Text = "Height";
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Enabled = false;
+            this.radioButton2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(225, 41);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(63, 18);
+            this.radioButton2.TabIndex = 95;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Female";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Enabled = false;
+            this.radioButton1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(132, 43);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(49, 18);
+            this.radioButton1.TabIndex = 94;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Male";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // jra7ea_mutaba3a_ser_marath
             // 
@@ -1429,14 +1449,14 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1476,7 +1496,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label3;
@@ -1561,5 +1580,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox comboBox29;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }

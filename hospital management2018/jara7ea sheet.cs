@@ -25,7 +25,6 @@ namespace hospital_management2018
         private void button1_Click(object sender, EventArgs e)
         {
             comboBox1.Enabled = true;
-            comboBox2.Enabled = true;
             comboBox3.Enabled = true;
             comboBox4.Enabled = true;
             comboBox6.Enabled = true;
@@ -91,6 +90,7 @@ namespace hospital_management2018
             dateTimePicker6.Enabled = false;
             dateTimePicker7.Enabled = false;
 
+
             button1.Enabled = false;
             button2.Enabled = false;
             button3.Enabled = false;
@@ -98,13 +98,16 @@ namespace hospital_management2018
 
             button4.Enabled = true;
             button5.Enabled = true;
+
+            radioButton1.Enabled = true;
+            radioButton2.Enabled = true;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             MessageBox.Show("تمت اضافة المعلومات");
             comboBox1.Enabled = false;
-            comboBox2.Enabled = false;
+
             comboBox3.Enabled = false;
             comboBox4.Enabled = false;
             comboBox6.Enabled = false;
@@ -178,12 +181,14 @@ namespace hospital_management2018
 
             button4.Enabled = false;
             button5.Enabled = false;
+
+            radioButton1.Enabled = false;
+            radioButton2.Enabled = false;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             comboBox1.Enabled = false;
-            comboBox2.Enabled = false;
             comboBox3.Enabled = false;
             comboBox4.Enabled = false;
             comboBox6.Enabled = false;
@@ -258,6 +263,9 @@ namespace hospital_management2018
 
             button4.Enabled = false;
             button5.Enabled = false;
+
+            radioButton1.Enabled = false;
+            radioButton2.Enabled = false;
         }
         Thread th;
         private void button6_Click(object sender, EventArgs e)

@@ -28,8 +28,8 @@ namespace hospital_management2018
         private void button3_Click(object sender, EventArgs e)
         {
             slidepanel.Top = button3.Top;
-            userControl21.BringToFront();
-         
+            userControl21.BringToFront()
+     ;         
 
         }
 
@@ -96,6 +96,26 @@ namespace hospital_management2018
         {
             slidepanel.Top = button20.Top;
             userControl81.BringToFront();
+        }
+
+        private void white1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Leave(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
    

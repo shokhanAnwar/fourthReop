@@ -67,8 +67,11 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.label41 = new System.Windows.Forms.Label();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
@@ -92,11 +95,9 @@
             this.label27 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.comboBox16 = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label39 = new System.Windows.Forms.Label();
             this.comboBox26 = new System.Windows.Forms.ComboBox();
@@ -134,7 +135,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox2.SuspendLayout();
             this.groupBox11.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -163,7 +163,6 @@
             this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.groupBox9);
             this.groupBox2.Location = new System.Drawing.Point(4, 4);
             this.groupBox2.Name = "groupBox2";
@@ -175,7 +174,7 @@
             // 
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(1084, 60);
+            this.label44.Location = new System.Drawing.Point(542, 11);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(236, 19);
             this.label44.TabIndex = 65;
@@ -238,6 +237,7 @@
             this.groupBox7.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.groupBox7.Controls.Add(this.textBox5);
             this.groupBox7.Controls.Add(this.label36);
+            this.groupBox7.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox7.Location = new System.Drawing.Point(580, 529);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(303, 147);
@@ -269,6 +269,7 @@
             this.groupBox10.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.groupBox10.Controls.Add(this.textBox7);
             this.groupBox10.Controls.Add(this.label40);
+            this.groupBox10.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox10.Location = new System.Drawing.Point(265, 529);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Size = new System.Drawing.Size(309, 147);
@@ -310,23 +311,25 @@
             this.groupBox5.Size = new System.Drawing.Size(1065, 51);
             this.groupBox5.TabIndex = 61;
             this.groupBox5.TabStop = false;
+            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
             // textBox2
             // 
             this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(452, 17);
+            this.textBox2.Location = new System.Drawing.Point(424, 17);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(166, 20);
+            this.textBox2.Size = new System.Drawing.Size(202, 20);
             this.textBox2.TabIndex = 70;
             // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Enabled = false;
+            this.radioButton5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton5.Location = new System.Drawing.Point(14, 17);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radioButton5.Size = new System.Drawing.Size(32, 17);
+            this.radioButton5.Size = new System.Drawing.Size(32, 18);
             this.radioButton5.TabIndex = 69;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "لا";
@@ -336,10 +339,11 @@
             // 
             this.radioButton6.AutoSize = true;
             this.radioButton6.Enabled = false;
+            this.radioButton6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton6.Location = new System.Drawing.Point(100, 17);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radioButton6.Size = new System.Drawing.Size(42, 17);
+            this.radioButton6.Size = new System.Drawing.Size(42, 18);
             this.radioButton6.TabIndex = 68;
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "نعم";
@@ -359,7 +363,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(624, 20);
+            this.label22.Location = new System.Drawing.Point(632, 20);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(35, 14);
             this.label22.TabIndex = 49;
@@ -391,6 +395,7 @@
             this.groupBox6.Controls.Add(this.comboBox22);
             this.groupBox6.Controls.Add(this.label28);
             this.groupBox6.Controls.Add(this.textBox3);
+            this.groupBox6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.Location = new System.Drawing.Point(889, 529);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(432, 146);
@@ -414,7 +419,7 @@
             this.comboBox22.FormattingEnabled = true;
             this.comboBox22.Location = new System.Drawing.Point(10, 116);
             this.comboBox22.Name = "comboBox22";
-            this.comboBox22.Size = new System.Drawing.Size(255, 21);
+            this.comboBox22.Size = new System.Drawing.Size(255, 22);
             this.comboBox22.TabIndex = 46;
             // 
             // label28
@@ -606,19 +611,13 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(571, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 19);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "استمارة دخول المرضى";
-            // 
             // groupBox9
             // 
             this.groupBox9.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.groupBox9.Controls.Add(this.radioButton9);
+            this.groupBox9.Controls.Add(this.radioButton10);
+            this.groupBox9.Controls.Add(this.textBox4);
+            this.groupBox9.Controls.Add(this.comboBox1);
             this.groupBox9.Controls.Add(this.dateTimePicker3);
             this.groupBox9.Controls.Add(this.label41);
             this.groupBox9.Controls.Add(this.comboBox5);
@@ -633,11 +632,9 @@
             this.groupBox9.Controls.Add(this.label19);
             this.groupBox9.Controls.Add(this.comboBox4);
             this.groupBox9.Controls.Add(this.groupBox3);
-            this.groupBox9.Controls.Add(this.textBox4);
             this.groupBox9.Controls.Add(this.label18);
             this.groupBox9.Controls.Add(this.comboBox16);
             this.groupBox9.Controls.Add(this.label15);
-            this.groupBox9.Controls.Add(this.comboBox13);
             this.groupBox9.Controls.Add(this.groupBox4);
             this.groupBox9.Controls.Add(this.label16);
             this.groupBox9.Controls.Add(this.comboBox14);
@@ -663,12 +660,54 @@
             this.groupBox9.Controls.Add(this.label3);
             this.groupBox9.Controls.Add(this.textBox1);
             this.groupBox9.Controls.Add(this.label2);
-            this.groupBox9.Controls.Add(this.comboBox1);
             this.groupBox9.Location = new System.Drawing.Point(255, 82);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(1065, 382);
             this.groupBox9.TabIndex = 0;
             this.groupBox9.TabStop = false;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Enabled = false;
+            this.radioButton9.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton9.Location = new System.Drawing.Point(811, 58);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(47, 18);
+            this.radioButton9.TabIndex = 109;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "انثى";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Enabled = false;
+            this.radioButton10.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton10.Location = new System.Drawing.Point(908, 58);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(42, 18);
+            this.radioButton10.TabIndex = 108;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "ذكر";
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Enabled = false;
+            this.textBox4.Location = new System.Drawing.Point(5, 173);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(155, 20);
+            this.textBox4.TabIndex = 76;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Enabled = false;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(5, 59);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(155, 21);
+            this.comboBox1.TabIndex = 75;
             // 
             // dateTimePicker3
             // 
@@ -698,9 +737,9 @@
             "متزوجة",
             "اعزب",
             "باكر"});
-            this.comboBox5.Location = new System.Drawing.Point(297, 210);
+            this.comboBox5.Location = new System.Drawing.Point(239, 210);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(155, 21);
+            this.comboBox5.Size = new System.Drawing.Size(213, 21);
             this.comboBox5.TabIndex = 72;
             // 
             // label42
@@ -719,17 +758,18 @@
             this.comboBox9.FormattingEnabled = true;
             this.comboBox9.Location = new System.Drawing.Point(667, 210);
             this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(155, 21);
+            this.comboBox9.Size = new System.Drawing.Size(232, 21);
             this.comboBox9.TabIndex = 70;
             // 
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
             this.radioButton7.Enabled = false;
+            this.radioButton7.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton7.Location = new System.Drawing.Point(667, 180);
             this.radioButton7.Name = "radioButton7";
             this.radioButton7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radioButton7.Size = new System.Drawing.Size(38, 17);
+            this.radioButton7.Size = new System.Drawing.Size(40, 18);
             this.radioButton7.TabIndex = 69;
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "كلا";
@@ -739,10 +779,11 @@
             // 
             this.radioButton8.AutoSize = true;
             this.radioButton8.Enabled = false;
+            this.radioButton8.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton8.Location = new System.Drawing.Point(767, 180);
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radioButton8.Size = new System.Drawing.Size(42, 17);
+            this.radioButton8.Size = new System.Drawing.Size(42, 18);
             this.radioButton8.TabIndex = 68;
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "نعم";
@@ -770,9 +811,9 @@
             // 
             this.comboBox23.Enabled = false;
             this.comboBox23.FormattingEnabled = true;
-            this.comboBox23.Location = new System.Drawing.Point(796, 356);
+            this.comboBox23.Location = new System.Drawing.Point(409, 356);
             this.comboBox23.Name = "comboBox23";
-            this.comboBox23.Size = new System.Drawing.Size(155, 21);
+            this.comboBox23.Size = new System.Drawing.Size(542, 21);
             this.comboBox23.TabIndex = 63;
             // 
             // label11
@@ -804,9 +845,9 @@
             "متزوجة",
             "اعزب",
             "باكر"});
-            this.comboBox4.Location = new System.Drawing.Point(297, 241);
+            this.comboBox4.Location = new System.Drawing.Point(239, 241);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(155, 21);
+            this.comboBox4.Size = new System.Drawing.Size(213, 21);
             this.comboBox4.TabIndex = 38;
             // 
             // groupBox3
@@ -830,10 +871,11 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Enabled = false;
+            this.radioButton3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.Location = new System.Drawing.Point(16, 39);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radioButton3.Size = new System.Drawing.Size(32, 17);
+            this.radioButton3.Size = new System.Drawing.Size(32, 18);
             this.radioButton3.TabIndex = 67;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "لا";
@@ -843,10 +885,11 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Enabled = false;
+            this.radioButton4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton4.Location = new System.Drawing.Point(75, 38);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radioButton4.Size = new System.Drawing.Size(42, 17);
+            this.radioButton4.Size = new System.Drawing.Size(42, 18);
             this.radioButton4.TabIndex = 66;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "نعم";
@@ -920,14 +963,6 @@
             this.label26.TabIndex = 59;
             this.label26.Text = "تاريخ الوفاة";
             // 
-            // textBox4
-            // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(5, 57);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(155, 20);
-            this.textBox4.TabIndex = 34;
-            // 
             // label18
             // 
             this.label18.AutoSize = true;
@@ -944,7 +979,7 @@
             this.comboBox16.FormattingEnabled = true;
             this.comboBox16.Location = new System.Drawing.Point(667, 241);
             this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(155, 21);
+            this.comboBox16.Size = new System.Drawing.Size(232, 21);
             this.comboBox16.TabIndex = 32;
             // 
             // label15
@@ -956,15 +991,6 @@
             this.label15.Size = new System.Drawing.Size(37, 14);
             this.label15.TabIndex = 31;
             this.label15.Text = "هاتف";
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.Enabled = false;
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(5, 176);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(155, 21);
-            this.comboBox13.TabIndex = 30;
             // 
             // groupBox4
             // 
@@ -1114,9 +1140,9 @@
             // 
             this.comboBox14.Enabled = false;
             this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(297, 176);
+            this.comboBox14.Location = new System.Drawing.Point(239, 176);
             this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(155, 21);
+            this.comboBox14.Size = new System.Drawing.Size(213, 21);
             this.comboBox14.TabIndex = 28;
             // 
             // label17
@@ -1138,9 +1164,9 @@
             "متزوجة",
             "اعزب",
             "باكر"});
-            this.comboBox15.Location = new System.Drawing.Point(2, 128);
+            this.comboBox15.Location = new System.Drawing.Point(5, 128);
             this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(158, 21);
+            this.comboBox15.Size = new System.Drawing.Size(155, 21);
             this.comboBox15.TabIndex = 26;
             // 
             // label12
@@ -1334,15 +1360,6 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "رقم السجل ";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.Enabled = false;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(797, 59);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(155, 21);
-            this.comboBox1.TabIndex = 0;
-            // 
             // a7saa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1417,7 +1434,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
         private System.Windows.Forms.Label label41;
@@ -1442,11 +1458,9 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.ComboBox comboBox16;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.ComboBox comboBox26;
@@ -1484,7 +1498,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton radioButton10;
     }
 }

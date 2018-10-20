@@ -93,6 +93,26 @@ namespace hospital_management2018.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images1 {
+            get {
+                object obj = ResourceManager.GetObject("images1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iStock_000033969038Small {
             get {
                 object obj = ResourceManager.GetObject("iStock_000033969038Small", resourceCulture);
@@ -106,6 +126,16 @@ namespace hospital_management2018.Properties {
         internal static System.Drawing.Bitmap iStock_000033969038Small1 {
             get {
                 object obj = ResourceManager.GetObject("iStock_000033969038Small1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2018_08_09_12_11_27 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2018-08-09_12-11-27", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

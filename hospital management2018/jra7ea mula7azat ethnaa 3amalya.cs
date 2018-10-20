@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Threading;
 namespace hospital_management2018
 {
     public partial class jra7ea_mula7azat_ethnaa_3amalya : Form
@@ -30,7 +30,6 @@ namespace hospital_management2018
             comboBox4.Enabled = true;
             comboBox5.Enabled = true;
             comboBox6.Enabled = true;
-            comboBox7.Enabled = true;
             comboBox8.Enabled = true;
             comboBox9.Enabled = true;
             comboBox10.Enabled = true;
@@ -65,7 +64,8 @@ namespace hospital_management2018
             button4.Enabled = true;
             button5.Enabled = true;
 
-        
+            radioButton1.Enabled = true;
+            radioButton2.Enabled = true;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -77,7 +77,6 @@ namespace hospital_management2018
             comboBox4.Enabled = false;
             comboBox5.Enabled = false;
             comboBox6.Enabled = false;
-            comboBox7.Enabled = false;
             comboBox8.Enabled = false;
             comboBox9.Enabled = false;
             comboBox10.Enabled = false;
@@ -112,6 +111,8 @@ namespace hospital_management2018
             button4.Enabled = false;
             button5.Enabled = false;
 
+            radioButton1.Enabled = false;
+            radioButton2.Enabled = false;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -122,7 +123,6 @@ namespace hospital_management2018
             comboBox4.Enabled = false;
             comboBox5.Enabled = false;
             comboBox6.Enabled = false;
-            comboBox7.Enabled = false;
             comboBox8.Enabled = false;
             comboBox9.Enabled = false;
             comboBox10.Enabled = false;
@@ -156,6 +156,22 @@ namespace hospital_management2018
 
             button4.Enabled = false;
             button5.Enabled = false;
+
+            radioButton1.Enabled = false;
+            radioButton2.Enabled = false;
         }
+        Thread th;
+        private void button6_Click(object sender, EventArgs e)
+        {
+            th = new Thread(backButton);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
+        }
+        private void backButton()
+        {
+            Application.Run(new UserControl1().ParentForm);
+        }
+        
     }
 }

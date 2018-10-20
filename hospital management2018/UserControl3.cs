@@ -29,7 +29,7 @@ namespace hospital_management2018
 
         private void button1_Click(object sender, EventArgs e)
         {
-            comboBox1.Enabled = true;
+           
             comboBox2.Enabled = true;       
             comboBox4.Enabled = true;
             comboBox5.Enabled = true;
@@ -60,6 +60,7 @@ namespace hospital_management2018
             textBox15.Enabled = true;
             textBox17.Enabled = true;
             textBox18.Enabled = true;
+            textBox22.Enabled = true;
 
             dateTimePicker1.Enabled = true;
             dateTimePicker2.Enabled = true;
@@ -88,7 +89,7 @@ namespace hospital_management2018
         private void button4_Click(object sender, EventArgs e)
         {
             MessageBox.Show("تمت اضافة المعلومات");
-            comboBox1.Enabled = false;
+
             comboBox2.Enabled = false;
             comboBox4.Enabled = false;
             comboBox5.Enabled = false;
@@ -119,6 +120,7 @@ namespace hospital_management2018
             textBox15.Enabled = false;
             textBox17.Enabled = false;
             textBox18.Enabled = false;
+            textBox22.Enabled = false;
 
             dateTimePicker1.Enabled = false;
             dateTimePicker2.Enabled = false;
@@ -146,7 +148,7 @@ namespace hospital_management2018
 
         private void button5_Click(object sender, EventArgs e)
         {
-            comboBox1.Enabled = false;
+
             comboBox2.Enabled = false;
             comboBox4.Enabled = false;
             comboBox5.Enabled = false;
@@ -177,6 +179,7 @@ namespace hospital_management2018
             textBox15.Enabled = false;
             textBox17.Enabled = false;
             textBox18.Enabled = false;
+            textBox22.Enabled = false;
 
             dateTimePicker1.Enabled = false;
             dateTimePicker2.Enabled = false;

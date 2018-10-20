@@ -73,7 +73,6 @@ namespace hospital_management2018
         {
             comboBox1.Enabled = true;
             comboBox2.Enabled = true;
-            comboBox3.Enabled = true;
             comboBox5.Enabled = true;
             comboBox6.Enabled = true;
             comboBox7.Enabled = true;
@@ -100,9 +99,9 @@ namespace hospital_management2018
             textBox11.Enabled = true;
             textBox12.Enabled = true;
             textBox13.Enabled = true;
-            textBox14.Enabled = true;       
+            textBox14.Enabled = true;
             textBox16.Enabled = true;
-            textBox21.Enabled = true;          
+            textBox21.Enabled = true;
             textBox24.Enabled = true;
             textBox25.Enabled = true;
             textBox26.Enabled = true;
@@ -125,10 +124,14 @@ namespace hospital_management2018
             textBox49.Enabled = true;
             textBox50.Enabled = true;
 
-           
+            textBox6.Enabled = false;
+            dateTimePicker6.Enabled = false;
+            dateTimePicker7.Enabled = false;
 
             radioButton1.Enabled = true;
             radioButton2.Enabled = true;
+            radioButton3.Enabled = true;
+            radioButton4.Enabled = true;
 
             checkBox32.Enabled = true;
             checkBox33.Enabled = true;
@@ -144,19 +147,15 @@ namespace hospital_management2018
             button1.Enabled = false;
             button4.Enabled = true;
             button5.Enabled = true;
-        }
-
-        private void textBox19_TextChanged(object sender, EventArgs e)
-        {
-
+        
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+
             MessageBox.Show("تمت اضافة المعلومات");
             comboBox1.Enabled = false;
             comboBox2.Enabled = false;
-            comboBox3.Enabled = false;
             comboBox5.Enabled = false;
             comboBox6.Enabled = false;
             comboBox7.Enabled = false;
@@ -198,23 +197,24 @@ namespace hospital_management2018
             textBox33.Enabled = false;
             textBox34.Enabled = false;
             textBox35.Enabled = false;
-         
             textBox38.Enabled = false;
             textBox39.Enabled = false;
             textBox40.Enabled = false;
             textBox41.Enabled = false;
             textBox42.Enabled = false;
-       
             textBox44.Enabled = false;
-       
             textBox48.Enabled = false;
             textBox49.Enabled = false;
             textBox50.Enabled = false;
 
-
+            textBox6.Enabled = true;
+            dateTimePicker6.Enabled = true;
+            dateTimePicker7.Enabled = true;
 
             radioButton1.Enabled = false;
             radioButton2.Enabled = false;
+            radioButton3.Enabled = false;
+            radioButton4.Enabled = false;
 
             checkBox32.Enabled = false;
             checkBox33.Enabled = false;
@@ -236,7 +236,6 @@ namespace hospital_management2018
         {
             comboBox1.Enabled = false;
             comboBox2.Enabled = false;
-            comboBox3.Enabled = false;
             comboBox5.Enabled = false;
             comboBox6.Enabled = false;
             comboBox7.Enabled = false;
@@ -278,23 +277,24 @@ namespace hospital_management2018
             textBox33.Enabled = false;
             textBox34.Enabled = false;
             textBox35.Enabled = false;
-
             textBox38.Enabled = false;
             textBox39.Enabled = false;
             textBox40.Enabled = false;
             textBox41.Enabled = false;
             textBox42.Enabled = false;
-
             textBox44.Enabled = false;
-
             textBox48.Enabled = false;
             textBox49.Enabled = false;
             textBox50.Enabled = false;
 
-
+            textBox6.Enabled = true;
+            dateTimePicker6.Enabled = true;
+            dateTimePicker7.Enabled = true;
 
             radioButton1.Enabled = false;
             radioButton2.Enabled = false;
+            radioButton3.Enabled = false;
+            radioButton4.Enabled = false;
 
             checkBox32.Enabled = false;
             checkBox33.Enabled = false;
@@ -310,6 +310,23 @@ namespace hospital_management2018
             button1.Enabled = true;
             button4.Enabled = false;
             button5.Enabled = false;
+        
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+     
+
+
+
+        
+
+        
+           
+
+     
     }
 }

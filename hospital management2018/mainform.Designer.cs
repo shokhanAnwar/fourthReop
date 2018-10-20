@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.slidepanel = new System.Windows.Forms.Panel();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -46,7 +47,10 @@
             this.rectangleShape2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -69,7 +73,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(353, 692);
             this.panel1.TabIndex = 0;
-        
             // 
             // slidepanel
             // 
@@ -87,7 +90,6 @@
             this.textBox5.Size = new System.Drawing.Size(103, 32);
             this.textBox5.TabIndex = 2;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-          
             // 
             // textBox4
             // 
@@ -97,7 +99,6 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(103, 32);
             this.textBox4.TabIndex = 1;
-          
             // 
             // textBox3
             // 
@@ -108,7 +109,6 @@
             this.textBox3.Size = new System.Drawing.Size(103, 32);
             this.textBox3.TabIndex = 0;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-           
             // 
             // button2
             // 
@@ -178,7 +178,6 @@
             this.textBox1.Text = "اسم المستخدم";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
-           
             // 
             // label1
             // 
@@ -251,12 +250,28 @@
             // panel2
             // 
             this.panel2.BackgroundImage = global::hospital_management2018.Properties.Resources.cardiologo_pinerolo1;
+            this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1001, 692);
             this.panel2.TabIndex = 1;
-         
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Vladimir Script", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(123, 9);
+            this.label3.Name = "label3";
+            this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label3.Size = new System.Drawing.Size(740, 104);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "\r\nإذا استطعت أن تعالج بدواء منفرد فلا تعالج بدواء مركب،وإذا استطعت أن تعالج بالأغ" +
+    "ذية،  فلا تعالج بالأدوية\r\n\r\n ";
             // 
             // mainform
             // 
@@ -272,6 +287,8 @@
             this.Load += new System.EventHandler(this.mainform_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -296,6 +313,8 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Panel slidepanel;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

@@ -31,7 +31,7 @@ namespace hospital_management2018
             comboBox10.Enabled = true;
             comboBox11.Enabled = true;
             comboBox12.Enabled = true;
-            comboBox13.Enabled = true;
+            comboBox1.Enabled = true;
             comboBox14.Enabled = true;
             comboBox15.Enabled = true;
             comboBox16.Enabled = true;
@@ -49,7 +49,7 @@ namespace hospital_management2018
             textBox1.Enabled = true;
             textBox2.Enabled = true;
             textBox3.Enabled = true;
-            textBox4.Enabled = true;
+            textBox9.Enabled = true;
             textBox5.Enabled = true;
             textBox7.Enabled = true;
             textBox8.Enabled = true;
@@ -81,6 +81,8 @@ namespace hospital_management2018
             radioButton6.Enabled = true;
             radioButton7.Enabled = true;
             radioButton8.Enabled = true;
+            radioButton9.Enabled = true;
+            radioButton10.Enabled = true;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -98,7 +100,7 @@ namespace hospital_management2018
             comboBox10.Enabled = false;
             comboBox11.Enabled = false;
             comboBox12.Enabled = false;
-            comboBox13.Enabled = false;
+            comboBox1.Enabled = false;
             comboBox14.Enabled = false;
             comboBox15.Enabled = false;
             comboBox16.Enabled = false;
@@ -115,7 +117,7 @@ namespace hospital_management2018
             textBox1.Enabled = false;
             textBox2.Enabled = false;
             textBox3.Enabled = false;
-            textBox4.Enabled = false;
+            textBox9.Enabled = false;
             textBox5.Enabled = false;
             textBox7.Enabled = false;
             textBox8.Enabled = false;
@@ -147,6 +149,8 @@ namespace hospital_management2018
             radioButton6.Enabled = false;
             radioButton7.Enabled = false;
             radioButton8.Enabled = false;
+            radioButton9.Enabled = false;
+            radioButton10.Enabled = false;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -163,7 +167,7 @@ namespace hospital_management2018
             comboBox10.Enabled = false;
             comboBox11.Enabled = false;
             comboBox12.Enabled = false;
-            comboBox13.Enabled = false;
+            comboBox1.Enabled = false;
             comboBox14.Enabled = false;
             comboBox15.Enabled = false;
             comboBox16.Enabled = false;
@@ -180,7 +184,7 @@ namespace hospital_management2018
             textBox1.Enabled = false;
             textBox2.Enabled = false;
             textBox3.Enabled = false;
-            textBox4.Enabled = false;
+            textBox9.Enabled = false;
             textBox5.Enabled = false;
             textBox7.Enabled = false;
             textBox8.Enabled = false;
@@ -212,6 +216,8 @@ namespace hospital_management2018
             radioButton6.Enabled = false;
             radioButton7.Enabled = false;
             radioButton8.Enabled = false;
+            radioButton9.Enabled = false;
+            radioButton10.Enabled = false;
         }
         Thread th;
         private void button6_Click(object sender, EventArgs e)

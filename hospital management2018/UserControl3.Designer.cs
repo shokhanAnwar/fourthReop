@@ -30,6 +30,7 @@
         {
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.listView1 = new System.Windows.Forms.ListView();
             this.label35 = new System.Windows.Forms.Label();
@@ -43,7 +44,6 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
@@ -142,10 +142,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox22);
             this.groupBox1.Controls.Add(this.groupBox8);
             this.groupBox1.Controls.Add(this.groupBox6);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.button5);
@@ -158,15 +158,22 @@
             this.groupBox1.Controls.Add(this.label24);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Location = new System.Drawing.Point(8, 28);
+            this.groupBox1.Location = new System.Drawing.Point(11, 28);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1119, 622);
             this.groupBox1.TabIndex = 75;
             this.groupBox1.TabStop = false;
             // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(82, 64);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(228, 20);
+            this.textBox22.TabIndex = 64;
+            // 
             // groupBox8
             // 
-            this.groupBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(189)))), ((int)(((byte)(156)))));
+            this.groupBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(169)))));
             this.groupBox8.Controls.Add(this.listView1);
             this.groupBox8.Controls.Add(this.label35);
             this.groupBox8.Controls.Add(this.textBox1);
@@ -245,7 +252,7 @@
             // 
             // groupBox6
             // 
-            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(189)))), ((int)(((byte)(156)))));
+            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(169)))));
             this.groupBox6.Controls.Add(this.comboBox15);
             this.groupBox6.Controls.Add(this.label23);
             this.groupBox6.Controls.Add(this.label1);
@@ -293,15 +300,6 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(221, 20);
             this.dateTimePicker1.TabIndex = 38;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Enabled = false;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(101, 63);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(204, 21);
-            this.comboBox1.TabIndex = 37;
             // 
             // label4
             // 
@@ -400,7 +398,7 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(189)))), ((int)(((byte)(156)))));
+            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(169)))));
             this.groupBox5.Controls.Add(this.comboBox8);
             this.groupBox5.Controls.Add(this.label14);
             this.groupBox5.Controls.Add(this.comboBox7);
@@ -455,7 +453,7 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(189)))), ((int)(((byte)(156)))));
+            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(169)))));
             this.groupBox4.Controls.Add(this.dateTimePicker8);
             this.groupBox4.Controls.Add(this.dateTimePicker9);
             this.groupBox4.Controls.Add(this.dateTimePicker10);
@@ -831,7 +829,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(189)))), ((int)(((byte)(156)))));
+            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(169)))));
             this.groupBox3.Controls.Add(this.dateTimePicker4);
             this.groupBox3.Controls.Add(this.comboBox14);
             this.groupBox3.Controls.Add(this.label21);
@@ -997,7 +995,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(189)))), ((int)(((byte)(156)))));
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(169)))));
             this.groupBox2.Controls.Add(this.radioButton2);
             this.groupBox2.Controls.Add(this.radioButton1);
             this.groupBox2.Controls.Add(this.comboBox6);
@@ -1181,9 +1179,9 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
             this.panel1.Controls.Add(this.label22);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(10, 1);
+            this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1117, 29);
+            this.panel1.Size = new System.Drawing.Size(1142, 29);
             this.panel1.TabIndex = 76;
             // 
             // label22
@@ -1207,7 +1205,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Name = "UserControl3";
-            this.Size = new System.Drawing.Size(1135, 659);
+            this.Size = new System.Drawing.Size(1142, 660);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox8.ResumeLayout(false);
@@ -1305,7 +1303,6 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dateTimePicker8;
@@ -1322,6 +1319,7 @@
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.DateTimePicker dateTimePicker11;
         private System.Windows.Forms.DateTimePicker dateTimePicker12;
+        private System.Windows.Forms.TextBox textBox22;
 
     }
 }

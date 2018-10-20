@@ -60,7 +60,9 @@ namespace hospital_management2018
             radioButton4.Enabled = false;
             radioButton5.Enabled = false;
             radioButton6.Enabled = false;
-          
+
+            dateTimePicker11.Enabled = false;
+            dateTimePicker12.Enabled = false;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -91,7 +93,9 @@ namespace hospital_management2018
             radioButton4.Enabled = true;
             radioButton5.Enabled = true;
             radioButton6.Enabled = true;
-          
+
+            dateTimePicker11.Enabled = true;
+            dateTimePicker12.Enabled = true;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -120,6 +124,9 @@ namespace hospital_management2018
             radioButton4.Enabled = true;
             radioButton5.Enabled = true;
             radioButton6.Enabled = true;
+
+            dateTimePicker11.Enabled = true;
+            dateTimePicker12.Enabled = true;
         }
     }
 }

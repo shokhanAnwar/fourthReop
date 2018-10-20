@@ -80,7 +80,7 @@
             this.panel1.Controls.Add(this.label22);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1135, 38);
+            this.panel1.Size = new System.Drawing.Size(1142, 38);
             this.panel1.TabIndex = 79;
             // 
             // label22
@@ -107,7 +107,7 @@
             this.groupBox1.Controls.Add(this.groupBox7);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.groupBox3);
-            this.groupBox1.Location = new System.Drawing.Point(8, 53);
+            this.groupBox1.Location = new System.Drawing.Point(12, 53);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1117, 587);
             this.groupBox1.TabIndex = 80;
@@ -186,7 +186,7 @@
             // 
             // groupBox7
             // 
-            this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(189)))), ((int)(((byte)(156)))));
+            this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(169)))));
             this.groupBox7.Controls.Add(this.listView1);
             this.groupBox7.Controls.Add(this.label35);
             this.groupBox7.Controls.Add(this.textBox6);
@@ -354,7 +354,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(189)))), ((int)(((byte)(156)))));
+            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(169)))));
             this.groupBox3.Controls.Add(this.textBox2);
             this.groupBox3.Controls.Add(this.textBox1);
             this.groupBox3.Controls.Add(this.numericUpDown1);
@@ -527,7 +527,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.Name = "UserControl8";
-            this.Size = new System.Drawing.Size(1135, 659);
+            this.Size = new System.Drawing.Size(1142, 660);
             this.Load += new System.EventHandler(this.UserControl8_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
