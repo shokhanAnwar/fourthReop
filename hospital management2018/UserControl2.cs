@@ -81,7 +81,7 @@ namespace hospital_management2018
             comboBox10.Enabled = true;
             comboBox11.Enabled = true;
             comboBox12.Enabled = true;
-            comboBox13.Enabled = true;
+         
             comboBox14.Enabled = true;
             comboBox15.Enabled = true;
             comboBox16.Enabled = true;
@@ -98,7 +98,7 @@ namespace hospital_management2018
             textBox10.Enabled = true;
             textBox11.Enabled = true;
             textBox12.Enabled = true;
-            textBox13.Enabled = true;
+
             textBox14.Enabled = true;
             textBox16.Enabled = true;
             textBox21.Enabled = true;
@@ -164,7 +164,7 @@ namespace hospital_management2018
             comboBox10.Enabled = false;
             comboBox11.Enabled = false;
             comboBox12.Enabled = false;
-            comboBox13.Enabled = false;
+        
             comboBox14.Enabled = false;
             comboBox15.Enabled = false;
             comboBox16.Enabled = false;
@@ -181,7 +181,6 @@ namespace hospital_management2018
             textBox10.Enabled = false;
             textBox11.Enabled = false;
             textBox12.Enabled = false;
-            textBox13.Enabled = false;
             textBox14.Enabled = false;
             textBox16.Enabled = false;
             textBox21.Enabled = false;
@@ -244,7 +243,7 @@ namespace hospital_management2018
             comboBox10.Enabled = false;
             comboBox11.Enabled = false;
             comboBox12.Enabled = false;
-            comboBox13.Enabled = false;
+        
             comboBox14.Enabled = false;
             comboBox15.Enabled = false;
             comboBox16.Enabled = false;
@@ -261,7 +260,6 @@ namespace hospital_management2018
             textBox10.Enabled = false;
             textBox11.Enabled = false;
             textBox12.Enabled = false;
-            textBox13.Enabled = false;
             textBox14.Enabled = false;
             textBox16.Enabled = false;
             textBox21.Enabled = false;

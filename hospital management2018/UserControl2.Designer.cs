@@ -127,7 +127,6 @@
             this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.comboBox14 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label18 = new System.Windows.Forms.Label();
@@ -142,7 +141,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -671,16 +669,16 @@
             this.panel3.Controls.Add(this.textBox14);
             this.panel3.Controls.Add(this.textBox10);
             this.panel3.Controls.Add(this.textBox13);
-            this.panel3.Location = new System.Drawing.Point(214, 354);
+            this.panel3.Location = new System.Drawing.Point(214, 343);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(910, 143);
+            this.panel3.Size = new System.Drawing.Size(910, 153);
             this.panel3.TabIndex = 202;
             // 
             // textBox24
             // 
             this.textBox24.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox24.Enabled = false;
-            this.textBox24.Location = new System.Drawing.Point(301, 87);
+            this.textBox24.Location = new System.Drawing.Point(301, 93);
             this.textBox24.Multiline = true;
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(78, 26);
@@ -690,7 +688,7 @@
             // 
             this.textBox25.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox25.Enabled = false;
-            this.textBox25.Location = new System.Drawing.Point(301, 58);
+            this.textBox25.Location = new System.Drawing.Point(301, 64);
             this.textBox25.Multiline = true;
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(78, 26);
@@ -700,7 +698,7 @@
             // 
             this.textBox26.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox26.Enabled = false;
-            this.textBox26.Location = new System.Drawing.Point(301, 115);
+            this.textBox26.Location = new System.Drawing.Point(301, 121);
             this.textBox26.Multiline = true;
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(78, 26);
@@ -710,7 +708,7 @@
             // 
             this.textBox27.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox27.Enabled = false;
-            this.textBox27.Location = new System.Drawing.Point(219, 87);
+            this.textBox27.Location = new System.Drawing.Point(219, 93);
             this.textBox27.Multiline = true;
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(77, 26);
@@ -720,7 +718,7 @@
             // 
             this.textBox28.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox28.Enabled = false;
-            this.textBox28.Location = new System.Drawing.Point(219, 58);
+            this.textBox28.Location = new System.Drawing.Point(219, 64);
             this.textBox28.Multiline = true;
             this.textBox28.Name = "textBox28";
             this.textBox28.Size = new System.Drawing.Size(77, 26);
@@ -730,7 +728,7 @@
             // 
             this.textBox29.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox29.Enabled = false;
-            this.textBox29.Location = new System.Drawing.Point(219, 115);
+            this.textBox29.Location = new System.Drawing.Point(219, 121);
             this.textBox29.Multiline = true;
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(77, 26);
@@ -740,7 +738,7 @@
             // 
             this.textBox30.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox30.Enabled = false;
-            this.textBox30.Location = new System.Drawing.Point(465, 86);
+            this.textBox30.Location = new System.Drawing.Point(465, 92);
             this.textBox30.Multiline = true;
             this.textBox30.Name = "textBox30";
             this.textBox30.Size = new System.Drawing.Size(104, 26);
@@ -750,7 +748,7 @@
             // 
             this.textBox31.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox31.Enabled = false;
-            this.textBox31.Location = new System.Drawing.Point(465, 58);
+            this.textBox31.Location = new System.Drawing.Point(465, 64);
             this.textBox31.Multiline = true;
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(104, 26);
@@ -760,7 +758,7 @@
             // 
             this.textBox32.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox32.Enabled = false;
-            this.textBox32.Location = new System.Drawing.Point(465, 115);
+            this.textBox32.Location = new System.Drawing.Point(465, 121);
             this.textBox32.Multiline = true;
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(104, 26);
@@ -770,7 +768,7 @@
             // 
             this.textBox33.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox33.Enabled = false;
-            this.textBox33.Location = new System.Drawing.Point(110, 86);
+            this.textBox33.Location = new System.Drawing.Point(110, 92);
             this.textBox33.Multiline = true;
             this.textBox33.Name = "textBox33";
             this.textBox33.Size = new System.Drawing.Size(105, 26);
@@ -780,7 +778,7 @@
             // 
             this.textBox34.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox34.Enabled = false;
-            this.textBox34.Location = new System.Drawing.Point(110, 58);
+            this.textBox34.Location = new System.Drawing.Point(110, 64);
             this.textBox34.Multiline = true;
             this.textBox34.Name = "textBox34";
             this.textBox34.Size = new System.Drawing.Size(105, 26);
@@ -790,7 +788,7 @@
             // 
             this.textBox35.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox35.Enabled = false;
-            this.textBox35.Location = new System.Drawing.Point(110, 115);
+            this.textBox35.Location = new System.Drawing.Point(110, 121);
             this.textBox35.Multiline = true;
             this.textBox35.Name = "textBox35";
             this.textBox35.Size = new System.Drawing.Size(105, 26);
@@ -801,7 +799,7 @@
             this.textBox36.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox36.Enabled = false;
             this.textBox36.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(3, 16);
+            this.textBox36.Location = new System.Drawing.Point(3, 22);
             this.textBox36.Multiline = true;
             this.textBox36.Name = "textBox36";
             this.textBox36.Size = new System.Drawing.Size(103, 40);
@@ -814,7 +812,7 @@
             this.textBox37.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox37.Enabled = false;
             this.textBox37.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox37.Location = new System.Drawing.Point(110, 16);
+            this.textBox37.Location = new System.Drawing.Point(110, 22);
             this.textBox37.Multiline = true;
             this.textBox37.Name = "textBox37";
             this.textBox37.Size = new System.Drawing.Size(105, 40);
@@ -826,7 +824,7 @@
             // 
             this.textBox38.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox38.Enabled = false;
-            this.textBox38.Location = new System.Drawing.Point(3, 85);
+            this.textBox38.Location = new System.Drawing.Point(3, 91);
             this.textBox38.Multiline = true;
             this.textBox38.Name = "textBox38";
             this.textBox38.Size = new System.Drawing.Size(103, 26);
@@ -836,7 +834,7 @@
             // 
             this.textBox39.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox39.Enabled = false;
-            this.textBox39.Location = new System.Drawing.Point(3, 58);
+            this.textBox39.Location = new System.Drawing.Point(3, 64);
             this.textBox39.Multiline = true;
             this.textBox39.Name = "textBox39";
             this.textBox39.Size = new System.Drawing.Size(103, 26);
@@ -846,7 +844,7 @@
             // 
             this.textBox40.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox40.Enabled = false;
-            this.textBox40.Location = new System.Drawing.Point(3, 114);
+            this.textBox40.Location = new System.Drawing.Point(3, 120);
             this.textBox40.Multiline = true;
             this.textBox40.Name = "textBox40";
             this.textBox40.Size = new System.Drawing.Size(103, 26);
@@ -856,7 +854,7 @@
             // 
             this.textBox41.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox41.Enabled = false;
-            this.textBox41.Location = new System.Drawing.Point(383, 87);
+            this.textBox41.Location = new System.Drawing.Point(383, 93);
             this.textBox41.Multiline = true;
             this.textBox41.Name = "textBox41";
             this.textBox41.Size = new System.Drawing.Size(78, 26);
@@ -866,7 +864,7 @@
             // 
             this.textBox42.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox42.Enabled = false;
-            this.textBox42.Location = new System.Drawing.Point(383, 58);
+            this.textBox42.Location = new System.Drawing.Point(383, 64);
             this.textBox42.Multiline = true;
             this.textBox42.Name = "textBox42";
             this.textBox42.Size = new System.Drawing.Size(78, 26);
@@ -877,7 +875,7 @@
             this.textBox43.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox43.Enabled = false;
             this.textBox43.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox43.Location = new System.Drawing.Point(465, 15);
+            this.textBox43.Location = new System.Drawing.Point(465, 21);
             this.textBox43.Multiline = true;
             this.textBox43.Name = "textBox43";
             this.textBox43.Size = new System.Drawing.Size(104, 41);
@@ -889,7 +887,7 @@
             // 
             this.textBox44.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox44.Enabled = false;
-            this.textBox44.Location = new System.Drawing.Point(383, 115);
+            this.textBox44.Location = new System.Drawing.Point(383, 121);
             this.textBox44.Multiline = true;
             this.textBox44.Name = "textBox44";
             this.textBox44.Size = new System.Drawing.Size(78, 26);
@@ -900,7 +898,7 @@
             this.textBox45.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox45.Enabled = false;
             this.textBox45.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox45.Location = new System.Drawing.Point(383, 15);
+            this.textBox45.Location = new System.Drawing.Point(383, 21);
             this.textBox45.Multiline = true;
             this.textBox45.Name = "textBox45";
             this.textBox45.Size = new System.Drawing.Size(78, 41);
@@ -913,7 +911,7 @@
             this.textBox46.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox46.Enabled = false;
             this.textBox46.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox46.Location = new System.Drawing.Point(301, 15);
+            this.textBox46.Location = new System.Drawing.Point(301, 21);
             this.textBox46.Multiline = true;
             this.textBox46.Name = "textBox46";
             this.textBox46.Size = new System.Drawing.Size(78, 41);
@@ -926,7 +924,7 @@
             this.textBox47.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox47.Enabled = false;
             this.textBox47.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox47.Location = new System.Drawing.Point(219, 16);
+            this.textBox47.Location = new System.Drawing.Point(219, 22);
             this.textBox47.Multiline = true;
             this.textBox47.Name = "textBox47";
             this.textBox47.Size = new System.Drawing.Size(78, 40);
@@ -937,12 +935,12 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label20.Location = new System.Drawing.Point(642, 4);
+            this.label20.Location = new System.Drawing.Point(601, 6);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(260, 14);
+            this.label20.Size = new System.Drawing.Size(302, 16);
             this.label20.TabIndex = 98;
             this.label20.Text = "Giasgow Coma Scale      مقياس كلاسكو ا لاغماء";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -951,7 +949,7 @@
             // 
             this.textBox7.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox7.Enabled = false;
-            this.textBox7.Location = new System.Drawing.Point(664, 87);
+            this.textBox7.Location = new System.Drawing.Point(664, 93);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(76, 26);
@@ -962,7 +960,7 @@
             this.textBox23.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox23.Enabled = false;
             this.textBox23.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(582, 24);
+            this.textBox23.Location = new System.Drawing.Point(582, 30);
             this.textBox23.Multiline = true;
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(76, 34);
@@ -974,7 +972,7 @@
             // 
             this.textBox8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox8.Enabled = false;
-            this.textBox8.Location = new System.Drawing.Point(828, 85);
+            this.textBox8.Location = new System.Drawing.Point(828, 91);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(76, 26);
@@ -984,7 +982,7 @@
             // 
             this.textBox21.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox21.Enabled = false;
-            this.textBox21.Location = new System.Drawing.Point(582, 115);
+            this.textBox21.Location = new System.Drawing.Point(582, 121);
             this.textBox21.Multiline = true;
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(76, 26);
@@ -994,7 +992,7 @@
             // 
             this.textBox11.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox11.Enabled = false;
-            this.textBox11.Location = new System.Drawing.Point(746, 87);
+            this.textBox11.Location = new System.Drawing.Point(746, 93);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(76, 26);
@@ -1005,7 +1003,7 @@
             this.textBox20.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox20.Enabled = false;
             this.textBox20.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.Location = new System.Drawing.Point(664, 24);
+            this.textBox20.Location = new System.Drawing.Point(664, 30);
             this.textBox20.Multiline = true;
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(76, 33);
@@ -1017,7 +1015,7 @@
             // 
             this.textBox12.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox12.Enabled = false;
-            this.textBox12.Location = new System.Drawing.Point(582, 87);
+            this.textBox12.Location = new System.Drawing.Point(582, 93);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(76, 26);
@@ -1028,7 +1026,7 @@
             this.textBox19.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox19.Enabled = false;
             this.textBox19.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(746, 23);
+            this.textBox19.Location = new System.Drawing.Point(746, 29);
             this.textBox19.Multiline = true;
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(76, 34);
@@ -1040,7 +1038,7 @@
             // 
             this.textBox4.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(664, 59);
+            this.textBox4.Location = new System.Drawing.Point(664, 65);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(76, 26);
@@ -1050,7 +1048,7 @@
             // 
             this.textBox16.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox16.Enabled = false;
-            this.textBox16.Location = new System.Drawing.Point(746, 115);
+            this.textBox16.Location = new System.Drawing.Point(746, 121);
             this.textBox16.Multiline = true;
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(76, 26);
@@ -1060,7 +1058,7 @@
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(828, 57);
+            this.textBox5.Location = new System.Drawing.Point(828, 63);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(76, 26);
@@ -1071,7 +1069,7 @@
             this.textBox15.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox15.Enabled = false;
             this.textBox15.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(827, 22);
+            this.textBox15.Location = new System.Drawing.Point(827, 28);
             this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(76, 34);
@@ -1083,7 +1081,7 @@
             // 
             this.textBox9.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox9.Enabled = false;
-            this.textBox9.Location = new System.Drawing.Point(746, 59);
+            this.textBox9.Location = new System.Drawing.Point(746, 65);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(76, 26);
@@ -1093,7 +1091,7 @@
             // 
             this.textBox14.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox14.Enabled = false;
-            this.textBox14.Location = new System.Drawing.Point(828, 113);
+            this.textBox14.Location = new System.Drawing.Point(828, 119);
             this.textBox14.Multiline = true;
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(76, 26);
@@ -1103,7 +1101,7 @@
             // 
             this.textBox10.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox10.Enabled = false;
-            this.textBox10.Location = new System.Drawing.Point(582, 59);
+            this.textBox10.Location = new System.Drawing.Point(582, 65);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(76, 26);
@@ -1113,7 +1111,7 @@
             // 
             this.textBox13.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.textBox13.Enabled = false;
-            this.textBox13.Location = new System.Drawing.Point(664, 115);
+            this.textBox13.Location = new System.Drawing.Point(664, 121);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(76, 26);
@@ -1245,7 +1243,6 @@
             this.groupBox3.Controls.Add(this.comboBox8);
             this.groupBox3.Controls.Add(this.comboBox14);
             this.groupBox3.Controls.Add(this.dateTimePicker3);
-            this.groupBox3.Controls.Add(this.comboBox13);
             this.groupBox3.Controls.Add(this.comboBox1);
             this.groupBox3.Controls.Add(this.dateTimePicker1);
             this.groupBox3.Controls.Add(this.label18);
@@ -1260,7 +1257,6 @@
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Controls.Add(this.label2);
@@ -1274,11 +1270,11 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Enabled = false;
-            this.radioButton3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(191, 174);
+            this.radioButton3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.Location = new System.Drawing.Point(38, 174);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radioButton3.Size = new System.Drawing.Size(43, 18);
+            this.radioButton3.Size = new System.Drawing.Size(45, 20);
             this.radioButton3.TabIndex = 191;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "باكر";
@@ -1288,11 +1284,11 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Enabled = false;
-            this.radioButton4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(286, 174);
+            this.radioButton4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.Location = new System.Drawing.Point(133, 174);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.radioButton4.Size = new System.Drawing.Size(50, 18);
+            this.radioButton4.Size = new System.Drawing.Size(54, 20);
             this.radioButton4.TabIndex = 190;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "عازب";
@@ -1302,10 +1298,10 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Enabled = false;
-            this.radioButton2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(375, 175);
+            this.radioButton2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(286, 175);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(47, 18);
+            this.radioButton2.Size = new System.Drawing.Size(51, 20);
             this.radioButton2.TabIndex = 189;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "انثى";
@@ -1315,10 +1311,10 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Enabled = false;
-            this.radioButton1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(486, 175);
+            this.radioButton1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(397, 175);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(42, 18);
+            this.radioButton1.Size = new System.Drawing.Size(43, 20);
             this.radioButton1.TabIndex = 188;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "ذكر";
@@ -1328,28 +1324,28 @@
             // 
             this.comboBox5.Enabled = false;
             this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(741, 173);
+            this.comboBox5.Location = new System.Drawing.Point(724, 173);
             this.comboBox5.MaximumSize = new System.Drawing.Size(200, 0);
             this.comboBox5.MinimumSize = new System.Drawing.Size(50, 0);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(158, 21);
+            this.comboBox5.Size = new System.Drawing.Size(175, 21);
             this.comboBox5.TabIndex = 185;
             // 
             // comboBox16
             // 
             this.comboBox16.Enabled = false;
             this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Location = new System.Drawing.Point(557, 174);
+            this.comboBox16.Location = new System.Drawing.Point(498, 174);
             this.comboBox16.MaxLength = 200;
             this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(159, 21);
+            this.comboBox16.Size = new System.Drawing.Size(179, 21);
             this.comboBox16.TabIndex = 184;
             // 
             // comboBox12
             // 
             this.comboBox12.Enabled = false;
             this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(193, 127);
+            this.comboBox12.Location = new System.Drawing.Point(40, 127);
             this.comboBox12.MaximumSize = new System.Drawing.Size(200, 0);
             this.comboBox12.MinimumSize = new System.Drawing.Size(50, 0);
             this.comboBox12.Name = "comboBox12";
@@ -1360,71 +1356,71 @@
             // 
             this.comboBox2.Enabled = false;
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(374, 128);
+            this.comboBox2.Location = new System.Drawing.Point(251, 128);
             this.comboBox2.MaximumSize = new System.Drawing.Size(200, 0);
             this.comboBox2.MinimumSize = new System.Drawing.Size(50, 0);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(158, 21);
+            this.comboBox2.Size = new System.Drawing.Size(192, 21);
             this.comboBox2.TabIndex = 182;
             // 
             // comboBox6
             // 
             this.comboBox6.Enabled = false;
             this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(741, 128);
+            this.comboBox6.Location = new System.Drawing.Point(724, 128);
             this.comboBox6.MaximumSize = new System.Drawing.Size(200, 0);
             this.comboBox6.MinimumSize = new System.Drawing.Size(50, 0);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(158, 21);
+            this.comboBox6.Size = new System.Drawing.Size(175, 21);
             this.comboBox6.TabIndex = 181;
             // 
             // comboBox11
             // 
             this.comboBox11.Enabled = false;
             this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(557, 128);
+            this.comboBox11.Location = new System.Drawing.Point(498, 128);
             this.comboBox11.MaxLength = 200;
             this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(158, 21);
+            this.comboBox11.Size = new System.Drawing.Size(178, 21);
             this.comboBox11.TabIndex = 180;
             // 
             // comboBox15
             // 
             this.comboBox15.Enabled = false;
             this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(374, 80);
+            this.comboBox15.Location = new System.Drawing.Point(251, 80);
             this.comboBox15.MaximumSize = new System.Drawing.Size(200, 0);
             this.comboBox15.MinimumSize = new System.Drawing.Size(50, 0);
             this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(156, 21);
+            this.comboBox15.Size = new System.Drawing.Size(190, 21);
             this.comboBox15.TabIndex = 179;
             // 
             // comboBox7
             // 
             this.comboBox7.Enabled = false;
             this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(741, 80);
+            this.comboBox7.Location = new System.Drawing.Point(724, 80);
             this.comboBox7.MaximumSize = new System.Drawing.Size(200, 0);
             this.comboBox7.MinimumSize = new System.Drawing.Size(50, 0);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(158, 21);
+            this.comboBox7.Size = new System.Drawing.Size(175, 21);
             this.comboBox7.TabIndex = 178;
             // 
             // comboBox8
             // 
             this.comboBox8.Enabled = false;
             this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(557, 80);
+            this.comboBox8.Location = new System.Drawing.Point(498, 80);
             this.comboBox8.MaxLength = 200;
             this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(158, 21);
+            this.comboBox8.Size = new System.Drawing.Size(178, 21);
             this.comboBox8.TabIndex = 177;
             // 
             // comboBox14
             // 
             this.comboBox14.Enabled = false;
             this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(5, 32);
+            this.comboBox14.Location = new System.Drawing.Point(36, 33);
             this.comboBox14.Name = "comboBox14";
             this.comboBox14.Size = new System.Drawing.Size(158, 21);
             this.comboBox14.TabIndex = 176;
@@ -1434,31 +1430,20 @@
             this.dateTimePicker3.CalendarFont = new System.Drawing.Font("Tahoma", 10F);
             this.dateTimePicker3.Enabled = false;
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker3.Location = new System.Drawing.Point(372, 35);
+            this.dateTimePicker3.Location = new System.Drawing.Point(498, 35);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.ShowUpDown = true;
-            this.dateTimePicker3.Size = new System.Drawing.Size(160, 20);
+            this.dateTimePicker3.Size = new System.Drawing.Size(179, 20);
             this.dateTimePicker3.TabIndex = 175;
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.Enabled = false;
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(741, 35);
-            this.comboBox13.MaximumSize = new System.Drawing.Size(200, 0);
-            this.comboBox13.MinimumSize = new System.Drawing.Size(50, 0);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(158, 21);
-            this.comboBox13.TabIndex = 174;
             // 
             // comboBox1
             // 
             this.comboBox1.Enabled = false;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(557, 35);
+            this.comboBox1.Location = new System.Drawing.Point(724, 35);
             this.comboBox1.MaxLength = 200;
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(158, 21);
+            this.comboBox1.Size = new System.Drawing.Size(175, 21);
             this.comboBox1.TabIndex = 173;
             // 
             // dateTimePicker1
@@ -1466,20 +1451,20 @@
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Tahoma", 10F);
             this.dateTimePicker1.Enabled = false;
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(193, 34);
+            this.dateTimePicker1.Location = new System.Drawing.Point(251, 34);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(151, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(190, 20);
             this.dateTimePicker1.TabIndex = 172;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(70, 14);
+            this.label18.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(82, 14);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label18.Size = new System.Drawing.Size(94, 16);
+            this.label18.Size = new System.Drawing.Size(105, 18);
             this.label18.TabIndex = 171;
             this.label18.Text = ": اسم المستلم";
             this.label18.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1487,153 +1472,144 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(819, 153);
+            this.label16.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(802, 153);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
             this.label16.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label16.Size = new System.Drawing.Size(80, 13);
+            this.label16.Size = new System.Drawing.Size(95, 16);
             this.label16.TabIndex = 170;
             this.label16.Text = ": عنوان المريض ";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(551, 154);
+            this.label15.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(489, 154);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label15.Size = new System.Drawing.Size(172, 13);
+            this.label15.Size = new System.Drawing.Size(187, 14);
             this.label15.TabIndex = 169;
             this.label15.Text = " :اسم اقرب شخص ممكن الاتصال به";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(488, 154);
+            this.label14.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(382, 154);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label14.Size = new System.Drawing.Size(48, 13);
+            this.label14.Size = new System.Drawing.Size(59, 16);
             this.label14.TabIndex = 168;
             this.label14.Text = "الجنس : ";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(262, 153);
+            this.label13.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(92, 153);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label13.Size = new System.Drawing.Size(81, 13);
+            this.label13.Size = new System.Drawing.Size(98, 16);
             this.label13.TabIndex = 167;
             this.label13.Text = " الحالة الزوجية : ";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(823, 107);
+            this.label12.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(809, 107);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label12.Size = new System.Drawing.Size(81, 14);
+            this.label12.Size = new System.Drawing.Size(89, 16);
             this.label12.TabIndex = 166;
             this.label12.Text = ": اسم المريض ";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(625, 107);
+            this.label11.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(572, 107);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label11.Size = new System.Drawing.Size(96, 14);
+            this.label11.Size = new System.Drawing.Size(104, 16);
             this.label11.TabIndex = 165;
             this.label11.Text = ": اسم الاب والجد ";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(469, 107);
+            this.label10.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(366, 107);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label10.Size = new System.Drawing.Size(63, 14);
+            this.label10.Size = new System.Drawing.Size(69, 16);
             this.label10.TabIndex = 164;
             this.label10.Text = ": اسم الام ";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(303, 106);
+            this.label9.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(136, 106);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label9.Size = new System.Drawing.Size(43, 14);
+            this.label9.Size = new System.Drawing.Size(47, 16);
             this.label9.TabIndex = 163;
             this.label9.Text = ": العمر ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(780, 61);
+            this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(769, 61);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label6.Size = new System.Drawing.Size(114, 14);
+            this.label6.Size = new System.Drawing.Size(125, 16);
             this.label6.TabIndex = 162;
             this.label6.Text = ": مستوى حدة الحالة ";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(595, 61);
+            this.label7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(545, 61);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label7.Size = new System.Drawing.Size(120, 14);
+            this.label7.Size = new System.Drawing.Size(131, 16);
             this.label7.TabIndex = 161;
             this.label7.Text = " : كيفية وصول المريض ";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(354, 61);
+            this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(247, 61);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label8.Size = new System.Drawing.Size(179, 14);
+            this.label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label8.Size = new System.Drawing.Size(196, 16);
             this.label8.TabIndex = 160;
             this.label8.Text = "تسلسل استمارة إسعاف الفوري : ";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(777, 14);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label5.Size = new System.Drawing.Size(130, 16);
-            this.label5.TabIndex = 159;
-            this.label5.Text = ": اسم المستشفى    ";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(624, 14);
+            this.label4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(789, 14);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label4.Size = new System.Drawing.Size(93, 16);
+            this.label4.Size = new System.Drawing.Size(107, 18);
             this.label4.TabIndex = 158;
             this.label4.Text = ": ردهة الطوارئ ";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1641,12 +1617,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(487, 14);
+            this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(613, 14);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label3.Size = new System.Drawing.Size(47, 16);
+            this.label3.Size = new System.Drawing.Size(53, 18);
             this.label3.TabIndex = 157;
             this.label3.Text = ": الوقت";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1654,12 +1630,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(300, 13);
+            this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(376, 13);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label2.Size = new System.Drawing.Size(51, 16);
+            this.label2.Size = new System.Drawing.Size(55, 18);
             this.label2.TabIndex = 156;
             this.label2.Text = ": التاريخ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1790,7 +1766,6 @@
         private System.Windows.Forms.ComboBox comboBox8;
         private System.Windows.Forms.ComboBox comboBox14;
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label18;
@@ -1805,7 +1780,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

@@ -719,7 +719,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(853, 95);
+            this.label21.Location = new System.Drawing.Point(470, 95);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(52, 19);
             this.label21.TabIndex = 102;
@@ -729,9 +729,9 @@
             // 
             this.comboBox17.Enabled = false;
             this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Location = new System.Drawing.Point(927, 94);
+            this.comboBox17.Location = new System.Drawing.Point(624, 94);
             this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(78, 21);
+            this.comboBox17.Size = new System.Drawing.Size(164, 21);
             this.comboBox17.TabIndex = 101;
             // 
             // label20
@@ -757,7 +757,7 @@
             // 
             this.comboBox15.Enabled = false;
             this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(624, 94);
+            this.comboBox15.Location = new System.Drawing.Point(219, 94);
             this.comboBox15.Name = "comboBox15";
             this.comboBox15.Size = new System.Drawing.Size(164, 21);
             this.comboBox15.TabIndex = 97;
@@ -766,7 +766,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(470, 95);
+            this.label19.Location = new System.Drawing.Point(10, 95);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(84, 19);
             this.label19.TabIndex = 98;
@@ -804,7 +804,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(12, 69);
+            this.label17.Location = new System.Drawing.Point(10, 69);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(163, 19);
             this.label17.TabIndex = 94;

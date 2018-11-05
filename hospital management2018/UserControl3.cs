@@ -204,5 +204,10 @@ namespace hospital_management2018
             radioButton1.Enabled = false;
             radioButton2.Enabled = false;
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

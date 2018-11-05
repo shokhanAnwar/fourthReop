@@ -698,7 +698,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Enabled = false;
             this.radioButton2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(345, 35);
+            this.radioButton2.Location = new System.Drawing.Point(342, 36);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(65, 20);
             this.radioButton2.TabIndex = 111;
@@ -711,7 +711,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Enabled = false;
             this.radioButton1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(282, 35);
+            this.radioButton1.Location = new System.Drawing.Point(279, 36);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(54, 20);
             this.radioButton1.TabIndex = 110;

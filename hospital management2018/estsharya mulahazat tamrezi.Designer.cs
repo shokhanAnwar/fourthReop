@@ -374,7 +374,7 @@
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(629, 63);
+            this.textBox1.Location = new System.Drawing.Point(650, 63);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(192, 20);
             this.textBox1.TabIndex = 108;
@@ -419,10 +419,10 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(160, 100);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(135, 23);
+            this.label16.Size = new System.Drawing.Size(115, 19);
             this.label16.TabIndex = 104;
             this.label16.Text = ": ساعة الدخول ";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -431,7 +431,7 @@
             // 
             this.dateTimePicker1.Enabled = false;
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(299, 103);
+            this.dateTimePicker1.Location = new System.Drawing.Point(315, 103);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(184, 20);
             this.dateTimePicker1.TabIndex = 103;
@@ -439,10 +439,10 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(488, 100);
+            this.label15.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(504, 100);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(124, 23);
+            this.label15.Size = new System.Drawing.Size(106, 19);
             this.label15.TabIndex = 102;
             this.label15.Text = ": تاريخ الدخول ";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -451,7 +451,7 @@
             // 
             this.comboBox7.Enabled = false;
             this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(629, 102);
+            this.comboBox7.Location = new System.Drawing.Point(650, 102);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(192, 21);
             this.comboBox7.TabIndex = 101;
@@ -459,10 +459,10 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(158, 19);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(84, 23);
+            this.label13.Size = new System.Drawing.Size(72, 19);
             this.label13.TabIndex = 97;
             this.label13.Text = ": الجنس ";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -470,10 +470,10 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(827, 100);
+            this.label14.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(848, 100);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(157, 23);
+            this.label14.Size = new System.Drawing.Size(135, 19);
             this.label14.TabIndex = 99;
             this.label14.Text = ": الطبيب المعالج   ";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -482,7 +482,7 @@
             // 
             this.comboBox4.Enabled = false;
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(299, 20);
+            this.comboBox4.Location = new System.Drawing.Point(315, 20);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(182, 21);
             this.comboBox4.TabIndex = 96;
@@ -490,10 +490,10 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(487, 19);
+            this.label12.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(503, 19);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(68, 23);
+            this.label12.Size = new System.Drawing.Size(59, 19);
             this.label12.TabIndex = 95;
             this.label12.Text = ": العمر ";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -502,7 +502,7 @@
             // 
             this.comboBox3.Enabled = false;
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(299, 63);
+            this.comboBox3.Location = new System.Drawing.Point(315, 63);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(182, 21);
             this.comboBox3.TabIndex = 94;
@@ -510,10 +510,10 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(487, 62);
+            this.label11.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(503, 62);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 23);
+            this.label11.Size = new System.Drawing.Size(73, 19);
             this.label11.TabIndex = 93;
             this.label11.Text = ": الردهة  ";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -521,10 +521,10 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(827, 62);
+            this.label10.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(848, 62);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(120, 23);
+            this.label10.Size = new System.Drawing.Size(103, 19);
             this.label10.TabIndex = 91;
             this.label10.Text = ": رقم السرير  ";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -533,7 +533,7 @@
             // 
             this.comboBox1.Enabled = false;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(629, 20);
+            this.comboBox1.Location = new System.Drawing.Point(650, 20);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(192, 21);
             this.comboBox1.TabIndex = 90;
@@ -541,10 +541,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(827, 19);
+            this.label9.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(848, 19);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(129, 23);
+            this.label9.Size = new System.Drawing.Size(110, 19);
             this.label9.TabIndex = 89;
             this.label9.Text = ": اسم المريض ";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

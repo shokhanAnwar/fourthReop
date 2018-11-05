@@ -329,5 +329,10 @@ namespace hospital_management2018
         {
             Application.Run(new UserControl1().ParentForm);
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

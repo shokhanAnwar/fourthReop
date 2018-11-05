@@ -1019,13 +1019,14 @@
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Patient Details";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Enabled = false;
             this.radioButton2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(994, 27);
+            this.radioButton2.Location = new System.Drawing.Point(1011, 27);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(65, 20);
             this.radioButton2.TabIndex = 23;
@@ -1038,7 +1039,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Enabled = false;
             this.radioButton1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(909, 27);
+            this.radioButton1.Location = new System.Drawing.Point(926, 27);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(54, 20);
             this.radioButton1.TabIndex = 22;
@@ -1051,16 +1052,16 @@
             this.comboBox6.Enabled = false;
             this.comboBox6.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(898, 81);
+            this.comboBox6.Location = new System.Drawing.Point(596, 81);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(171, 21);
+            this.comboBox6.Size = new System.Drawing.Size(188, 21);
             this.comboBox6.TabIndex = 21;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Tahoma", 11.25F);
-            this.label11.Location = new System.Drawing.Point(717, 82);
+            this.label11.Location = new System.Drawing.Point(432, 82);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(158, 18);
             this.label11.TabIndex = 20;
@@ -1073,7 +1074,7 @@
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Location = new System.Drawing.Point(119, 54);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(184, 21);
+            this.comboBox5.Size = new System.Drawing.Size(256, 21);
             this.comboBox5.TabIndex = 19;
             // 
             // label10
@@ -1090,16 +1091,17 @@
             // 
             this.dateTimePicker3.Enabled = false;
             this.dateTimePicker3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker3.Location = new System.Drawing.Point(532, 54);
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker3.Location = new System.Drawing.Point(596, 54);
             this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePicker3.Size = new System.Drawing.Size(188, 21);
             this.dateTimePicker3.TabIndex = 16;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 11.25F);
-            this.label9.Location = new System.Drawing.Point(459, 55);
+            this.label9.Location = new System.Drawing.Point(511, 55);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(63, 18);
             this.label9.TabIndex = 17;
@@ -1129,7 +1131,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 11.25F);
-            this.label7.Location = new System.Drawing.Point(813, 28);
+            this.label7.Location = new System.Drawing.Point(838, 28);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(65, 18);
             this.label7.TabIndex = 12;
@@ -1139,9 +1141,10 @@
             // 
             this.dateTimePicker2.Enabled = false;
             this.dateTimePicker2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(532, 27);
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker2.Location = new System.Drawing.Point(596, 27);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePicker2.Size = new System.Drawing.Size(188, 21);
             this.dateTimePicker2.TabIndex = 9;
             // 
             // comboBox2
@@ -1151,7 +1154,7 @@
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(119, 27);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(184, 21);
+            this.comboBox2.Size = new System.Drawing.Size(256, 21);
             this.comboBox2.TabIndex = 11;
             // 
             // label6
@@ -1168,7 +1171,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 11.25F);
-            this.label5.Location = new System.Drawing.Point(422, 28);
+            this.label5.Location = new System.Drawing.Point(474, 28);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(104, 18);
             this.label5.TabIndex = 10;
